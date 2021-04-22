@@ -1,38 +1,187 @@
 .App {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+body{
+  font-family: 'ProximaNova',Arial,'Helvetica Neue',sans-serif;
+  
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+/* navabr css */
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.navbar{
+  max-width: 500px;
+  position: relative;
+  /* margin: 0 auto; */
   display: flex;
-  flex-direction: column;
+  height: 80px;
+  background: #fff;
   align-items: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.address{
+  display: flex;
+  align-items: center;
+  margin-left: 30px;
+  max-width: 300px;
+  height: 30px;
+  cursor: pointer;
+  margin-bottom: -1px;
+  padding-right: 10px;
+}
+.headingMainAdd{
+  display: flex;
+  font-weight: 700;
+  color: #3d4152;
+  float: left;
+}
+.mainAdd{
+  /* display: block; */
+  margin-left: 10px;
+  min-width: 30px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.fullAdd{
+  display: block;
+  padding-left: 5px;
+  margin-left: 5px;
+  color: #686b78;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.offers{
+  display: flex;
+  float: right;
+  margin-left: 50px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.offersLink{
+  display: flex;
+  align-items: center;
+  padding-left: 28px;
+  text-decoration: none;
+}
+.offersText{
+  position: relative;
+  color: #3d4152;
+  top: 50%;
+  right: 0;
+  line-height: 0;
+}
+
+/* MainBody css */
+.main-body-container{
+  width: 500px;
+  height: auto;
+  /* border: 2px solid red; */
+}
+
+/* RestaurantCard css */
+.Resto-container{
+  position: relative;
+  background-color:  #e46d47;
+  border-radius: 5px;
+  color: #fff;
+  max-width: 500px;
+}
+.row-0{
+  display: flex;
+}
+.col-deatils{
+  width: 60%;
+  margin: 25px 20px;
+}
+.col-deatils h2{
+  font-size: 35px;
+  font-weight: 600;
+  position: relative;
+  top: 0px;
+  left: -31px;
+}
+.col-deatils p{
+  font-size: 20px;
+  font-weight: 300;
+  margin-top: 5px;
+}
+.col-img{
+  max-width: 40%;
+
+}
+.col-img img{
+  margin-top: 5px;
+  width: 150px;
+  height: 150px;
+}
+
+.row-1{
+  display: flex;
+  position: absolute;
+  top: 108px;
+  left: 0px;
+}
+.row-1 button{
+  width: 500px;
+  height: 50px;
+  background-color: #a75134;
+  opacity: .4;
+  border: none;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  cursor: pointer;
+}
+.row-1 button span{
+  color: #fff;
+  font-size: 15px;
+  font-weight: 200;
+  position: relative;
+  left: -180px;
+  opacity: 1 !important;
+  z-index: 1;
+}
+.row-1 button span i{
+  margin-left: 10px;
+}
+
+/* footer css */
+.footer{
+  max-width: 500px;
+  position: relative;
+  margin: 0 auto;
+  display: flex;
+  height: 80px;
+  background: #fff;
+  align-items: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.icon-list{
+  display: flex;
+  list-style: none;
+  margin: 0 20px;
+  cursor: pointer;
+  
+}
+.icon{
+  margin: 0 20px;
+}
+.icon-link{
+  text-decoration: none;
+  position: relative;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.icon-link i, span{
+  display: block;
+  color: #3d4152;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.icon-link span{
+  margin-top: 5px;
 }
