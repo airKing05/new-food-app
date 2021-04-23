@@ -2,39 +2,39 @@ import React from 'react';
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import FoodSmallCard from './FoodSmallCard';
+import SmallCard from './SmallCard';
 
 
-export default function CarouselCont() {
+
+export default function SCarousel() {
     const settings = {
         dots: false,
         infinite: true,
         autoplaySpeed: 1000,
         autoplay: true,
-        slidesToShow: 4.2,
+        slidesToShow: 4,
         slidesToScroll: 1
     };
     return (
-        <div className="pickUpCarouselContainer">
-            <h2> &#128077; Top Picks For You</h2>
+        <div className="SCarouselContainer">
             <Slider {...settings}>
                 <div>
-                    <FoodSmallCard />
+                    <SmallCard/>
                 </div>
                 <div>
-                    <FoodSmallCard />
+                    <SmallCard/>
                 </div>
                 <div>
-                    <FoodSmallCard />
+                    <SmallCard/>
                 </div>
                 <div>
-                    <FoodSmallCard />
+                    <SmallCard/>
                 </div>
                 <div>
-                    <FoodSmallCard />
+                    <SmallCard/>
                 </div>
                 <div>
-                    <FoodSmallCard />
+                    <SmallCard/>
                 </div>
             </Slider>
         </div>

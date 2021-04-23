@@ -88,7 +88,7 @@ body{
   max-width: 500px;
   height: auto;
   padding: 0px 20px;
-  border: 2px solid red;
+  /* border: 2px solid red; */
 }
 
 /* RestaurantCard css */
@@ -203,7 +203,8 @@ body{
 }
 .ad-container span{
   position: relative;
-  top: 1px;
+  top: 2px;
+  left: -2px;
   margin-left: 5px;
   font-size: 12px;
   font-weight: 200;
@@ -215,7 +216,7 @@ body{
   top: 85px;
   left: 5px;
   width: 90px;
-  height: 20px;
+  height: 26px;
   background-color: #e46d47;
   border-radius: 5px;
 }
@@ -228,7 +229,7 @@ body{
 }
 .row-details{
   width: 100%;
-  margin: 6px 0px;
+  margin: 12px 0px;
 }
 .row-details span{
   font-size: 18px;
@@ -241,6 +242,110 @@ body{
   font-weight: 200;
   color: #837c7a;
 }
+
+
+/* SCarousel css */
+.SCarouselContainer{
+  position: relative;
+  margin: 25px auto;
+  max-width: 5000px;
+}
+
+/* SCarousel's Small card css is same as the PickUpCarousel's Food-card */
+
+
+/* CCarousel css */
+.CCarouselContainer{
+  position: relative;
+  margin: 25px auto;
+  max-width: 500px;
+}
+
+
+
+/* CCarousel's ComboCard css */
+.big-card-container{
+
+  position: relative;
+  margin: 0 auto;
+  background-color: rgb(223, 115, 133);
+  max-width: 400px;
+  border-radius: 8px;
+}
+.row{
+  display: flex;
+}
+.col{
+  width: 50%;
+}
+.small-img{
+  margin-left: 20px;
+  width: 100%;
+}
+.small-img img{
+  width: 80px;
+  height: 50px;
+}
+.text{
+  margin-left: 20px;
+  color: #fff;
+}
+.text h2{
+  font-size: 12px;
+  font-weight: 300;
+}
+.text h1{
+  font-size: 25px;
+  font-weight: 700;
+}
+.text h3{
+  font-size: 15px;
+  font-weight: 500;
+}
+.row .col-text {
+  width: 100%;
+}
+.row .col-text h4{
+  width: 100%;
+  font-size: 10px;
+  margin-top: 4px;
+  color: rgb(230, 225, 225);
+}
+.row .col-link{
+  position: absolute;
+  top: 110px;
+  left: 123px;
+  width: 100%;
+}
+.row .col-link a img{
+  width: 80px;
+  height: auto;
+}
+
+.text button{
+  background-color: rgb(117, 58, 117);
+  color: wheat;
+  margin: 10px 0px;
+  padding: 3px 7px;
+  border: none;
+  border-radius: 1px;
+}
+.big-img {
+  margin: 20px auto;
+  width: 100%;
+}
+.big-img img{
+  width: 200px;
+  height: auto;
+  padding-right: 10px;
+}
+
+
+
+
+
+
+
 
 /* footer css */
 .footer{
