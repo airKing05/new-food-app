@@ -88,7 +88,7 @@ body{
   max-width: 500px;
   height: auto;
   padding: 0px 20px;
-  /* border: 2px solid red; */
+  border: 2px solid red;
 }
 
 /* RestaurantCard css */
@@ -355,6 +355,45 @@ body{
   height: auto;
   padding-right: 10px;
 }
+
+
+
+/* NearRestoCont css*/
+.nearRestoContContainer{
+  position: relative;
+  /* margin: 0 auto; */
+  max-width: 500px;
+
+}
+.nearRestoContContainer h2{
+  margin-top: 40px;
+  margin-bottom: 10px;
+  font-size: 28px;
+  font-weight: 700px;
+  color: rgb(74, 78, 78);
+  /* justify-content: flex-start; */
+  display: flex;
+  /* margin-left: -175px; */
+}
+.nearRestoContContainer p{
+  font-size: 18px;
+  font-weight: 500px;
+  color: #686b78;
+  /* justify-content: start; */
+  display: flex;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
