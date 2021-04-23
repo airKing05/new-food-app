@@ -1,5 +1,5 @@
 import React from 'react';
-import Rominus from '../../../images/Rominus.png';
+import RominusImg from '../../../images/Rominus.png';
 import './NearRestoCardWithAD.css';
 
 export default function NearRestoCardWithAD() {
@@ -7,7 +7,7 @@ export default function NearRestoCardWithAD() {
         <div class="near-resto-cont">
             <div class="near-resto-small-container">
                 <div class="near-resto-row-img">
-                    <img src={Rominus} alt="food-small-card-img" />
+                    <img src={RominusImg} alt="food-small-card-img" />
                     <a href="#ad-link" style={{cursor: 'pointer'}}>
                         <div class="near-resto-ad-container">
                             <span>AD</span>

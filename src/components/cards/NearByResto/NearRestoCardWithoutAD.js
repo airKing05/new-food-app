@@ -1,5 +1,5 @@
 import React from 'react';
-import hyderabadiBiryani from '../../../images/hyderabadi-biryani.png';
+import hyderabadiBiryaniImg from '../../../images/hyderabadi-biryani.png';
 import './NearRestoCardWithoutAD.css';
 
 export default function NearRestoCardWithoutAD() {
@@ -7,7 +7,7 @@ export default function NearRestoCardWithoutAD() {
 <div class="near-resto-cont">
     <div class="near-resto-small-container">
         <div class="near-resto-woad-row-img">
-          <img src={hyderabadiBiryani} alt="food-small-card-img" />
+          <img src={hyderabadiBiryaniImg} alt="food-small-card-img" />
           {/* <a href="" style={{cursor: 'pointer'}}>
             <!-- <div class="ad-container">
                 <span>AD</span>
