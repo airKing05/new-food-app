@@ -1,0 +1,102 @@
+.near-resto-cont{
+    display: flex;
+    max-width: 460px;
+    height: auto;
+    margin: 40px auto;
+    position: relative;
+    top: 0px;
+    left: -16px;
+}
+.near-resto-small-container{
+    position: relative;
+    background-color: #fff;
+    max-width: 120px;
+}
+.near-resto-row-img{
+    border: 1px solid black;
+    border-radius: 5px;
+    position: relative;
+    width: 120px;
+    height: 150px;
+    background-color: #000;
+    
+}
+.near-resto-row-img img{
+    margin: 30px 0;
+    width: 120px;
+    height: auto;
+}
+.near-resto-ad-container{
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    width: 25px;
+    height: 20px;
+    background-color: #000;
+}
+.near-resto-ad-container span{
+    position: relative;
+    top: 1px;
+    margin-left: 5px;
+    font-size: 12px;
+    font-weight: 200;
+    color: #fff;
+
+}
+.near-resto-offer-box{
+    position: absolute;
+    top: 135px;
+    left: 7px;
+    width: 104px;
+    height: 26px;
+    background-color: #f5b43b;
+    border-radius: 5px;
+}
+.near-resto-offer-box span{
+    margin-left: 3px;
+    padding-top: 4px;
+    font-size: 19px;
+    font-weight: 300;
+    color: #fff;
+}
+.near-resto-details{
+    align-items: center;
+    margin: 5px 10px;
+    color: #3d4152;
+}
+.near-resto-details h2{
+    font-size: 21px;
+    width: 100%;
+    margin-bottom: 7px;
+    margin-top: -5px;
+}
+.near-resto-details h4{
+    font-size: 17px;
+    font-weight: 500;
+    color: #686b78;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    padding: 3px 0;
+}
+.near-resto-details .reviews {
+    display: flex;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 10px 0px;
+    justify-content: flex-start;
+}
+.near-resto-details  hr{
+    position: relative;
+    top: 6px;
+    left: 0px;
+} 
+.near-resto-details  p{
+    position: relative;
+    top: 6px;
+    left: 0px;
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 10px;
+}
+

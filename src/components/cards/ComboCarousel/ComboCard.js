@@ -21,7 +21,7 @@ export default function ComboCard() {
                             <h4> * extra cashback with </h4>
                         </div>
                         <div class="col-link">
-                            <a href="" style={{cursor: 'pointer'}}>
+                            <a href="amazonPay-link" style={{cursor: 'pointer'}}>
                                 <img src={amazonImg} alt="amazonPay-link" />
                             </a>
                         </div>
