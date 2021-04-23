@@ -12,9 +12,9 @@ export default function Navbar() {
             <span class="icon-downArrow kVKTT"></span>
         </label>
         <label class="offers">
-            <a href="" class="offersLink">
-            <span class="icon-downArrow kVKTT"></span>
-            <span class="offersText">Offers</span>
+            <a href="offers-link" class="offersLink">
+            {/* <span class="icon-downArrow kVKTT"></span> */}
+            <span class="offersText"> &#128512; &nbsp;Offers</span>
         </a>
         </label>
     </nav>

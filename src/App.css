@@ -23,11 +23,12 @@ body{
   background: #fff;
   align-items: center;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 0px 20px;
 }
 .address{
   display: flex;
   align-items: center;
-  margin-left: 30px;
+  margin-left: 0px;
   max-width: 300px;
   height: 30px;
   cursor: pointer;
@@ -60,10 +61,13 @@ body{
 .offers{
   display: flex;
   float: right;
-  margin-left: 50px;
+  margin-left: 15px;
   font-size: 16px;
   font-weight: 500;
   cursor: pointer;
+  position: relative;
+  top: 0px;
+  right: -20px;
 }
 .offersLink{
   display: flex;
@@ -81,9 +85,10 @@ body{
 
 /* MainBody css */
 .main-body-container{
-  width: 500px;
+  max-width: 500px;
   height: auto;
-  /* border: 2px solid red; */
+  padding: 0px 20px;
+  border: 2px solid red;
 }
 
 /* RestaurantCard css */
@@ -128,9 +133,10 @@ body{
   position: absolute;
   top: 108px;
   left: 0px;
+  
 }
 .row-1 button{
-  width: 500px;
+  width: 455px;
   height: 50px;
   background-color: #a75134;
   opacity: .4;
@@ -138,19 +144,39 @@ body{
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
   cursor: pointer;
+  
 }
 .row-1 button span{
   color: #fff;
   font-size: 15px;
   font-weight: 200;
   position: relative;
-  left: -180px;
+  left: -166px;
   opacity: 1 !important;
   z-index: 1;
 }
 .row-1 button span i{
   margin-left: 10px;
 }
+
+
+
+
+/* CarouselCont css */
+.pickUpCarouselContainer{
+  position: relative;
+  margin: 0 auto;
+  max-width: 500px;
+}
+.pickUpCarouselContainer h2{
+  font-size: 28px;
+  font-weight: 700px;
+  color: rgb(74, 78, 78);
+  margin-left: -175px;
+}
+
+
+
 
 /* footer css */
 .footer{
@@ -162,21 +188,28 @@ body{
   background: #fff;
   align-items: center;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 0px 20px;
 }
 .icon-list{
   display: flex;
   list-style: none;
-  margin: 0 20px;
+  /* margin: 0 20px; */
   cursor: pointer;
   
 }
 .icon{
   margin: 0 20px;
+  /* justify-content: space-between; */
 }
 .icon-link{
   text-decoration: none;
   position: relative;
   justify-content: center;
+}
+.icon-link img{
+  max-width: 80px;
+  height: auto;
+  margin-left: -60px;
 }
 .icon-link i, span{
   display: block;
