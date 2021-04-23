@@ -14,7 +14,8 @@ export default function ComboCard() {
                 <div class="text">
                     <h2>UP TO</h2>
                     <h1>60% Off</h1>
-                    <h3>Grab big discount from the <br/> biggest brand in town</h3>
+                    <h3 style={{marginLeft:'-5px'}}>Grab big discount from the </h3>
+                    <h3 style={{marginLeft:'-35px'}}> biggest brand in town</h3>
                     <div class="row">
                         <div class="col-text">
                             <h4> * extra cashback with </h4>
