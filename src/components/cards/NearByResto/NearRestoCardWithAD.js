@@ -21,7 +21,7 @@ export default function NearRestoCardWithAD() {
             <div class="near-resto-details">
                 <h2>Rominus Pizza And Burger</h2>
                 <h4>Italian-American, Pizzas, Fastfood,...</h4>
-                <h4 style={{display: 'flex', justifyContent:'start'}}>Talwandi, 2.5 kms</h4>
+                <h4 style={{display: 'flex', justifyContent:'flex-start'}}>Talwandi, 2.5 kms</h4>
                 <div class="reviews">
                     <span>
                         <i class="fas fa-star"></i>

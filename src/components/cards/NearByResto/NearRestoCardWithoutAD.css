@@ -12,19 +12,22 @@
     background-color: #fff;
     max-width: 120px;
 }
-.near-resto-row-img{
+.near-resto-woad-row-img{
     border: 1px solid black;
     border-radius: 5px;
     position: relative;
     width: 120px;
     height: 150px;
-    background-color: #000;
+    background: url('https://bit.ly/3mHYq5W');
+    background-size: cover;
     
 }
-.near-resto-row-img img{
-    margin: 30px 0;
-    width: 120px;
+.near-resto-woad-row-img img{
+    margin: 20px 0px;
+    margin-left: -7px;
+    width: 131px;
     height: auto;
+
 }
 .near-resto-ad-container{
     position: absolute;
@@ -59,18 +62,18 @@
     font-weight: 300;
     color: #fff;
 }
-.near-resto-details{
+.near-resto-woad-details{
     align-items: center;
     margin: 5px 10px;
     color: #3d4152;
 }
-.near-resto-details h2{
+.near-resto-woad-details h2{
     font-size: 21px;
     width: 100%;
     margin-bottom: 7px;
-    margin-top: -5px;
+    margin-top: 14px;
 }
-.near-resto-details h4{
+.near-resto-woad-details h4{
     font-size: 17px;
     font-weight: 500;
     color: #686b78;
@@ -79,24 +82,24 @@
     white-space: nowrap;
     padding: 3px 0;
 }
-.near-resto-details .reviews {
+.near-resto-woad-details .reviews {
     display: flex;
     font-size: 18px;
     font-weight: 600;
     margin: 10px 0px;
     justify-content: flex-start;
 }
-.near-resto-details  hr{
+/* .near-resto-woad-details  hr{
     position: relative;
     top: 6px;
     left: 0px;
 } 
-.near-resto-details  p{
+.near-resto-woad-details  p{
     position: relative;
     top: 6px;
     left: 0px;
     font-size: 18px;
     font-weight: 500;
     margin-top: 10px;
-}
+} */
 
