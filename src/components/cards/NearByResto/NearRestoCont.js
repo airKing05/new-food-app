@@ -6,7 +6,7 @@ export default function NearRestoCont() {
     return (
         <div className="nearRestoContContainer">
             <h2>All Restaurants Nearby</h2>
-            <p>Discover unque tastes near you</p>
+            <p>Discover unique tastes near you</p>
             <NearRestoCardWithAD/>
             <NearRestoCardWithoutAD/>
             <NearRestoCardWithoutAD/>
