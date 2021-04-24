@@ -174,7 +174,8 @@ body{
   font-size: 28px;
   font-weight: 700px;
   color: rgb(74, 78, 78);
-  margin-left: -175px;
+  /* margin-left: -175px; */
+  display: flex;
 }
 
 /* PickUpCarousel Food-card */
@@ -356,6 +357,156 @@ body{
   padding-right: 10px;
 }
 
+
+
+/* CouponsCont css */
+.couponsCarouselContainer{
+  position: relative;
+  margin: 25px auto;
+  max-width: 500px;
+}
+.couponsCarouselContainer h2{
+  display: flex;
+  margin-top: 60px;
+  margin-bottom: 20px;
+  font-size: 28px;
+  font-weight: 700px;
+  color: rgb(74, 78, 78);
+  /* margin-left: -175px; */
+}
+
+
+/* CouponsCont's CounponCard css */
+.coupons-container{
+  position: relative;
+  margin: 0px auto;
+  background-color: rgb(245, 238, 238);
+  max-width: 150px;
+  height: 200px;
+  /* border: 1px solid gray; */
+  border-radius: 5px;
+}
+
+
+.wave {
+display: flex;
+justify-content: center;
+align-items: center;
+background: linear-gradient(to bottom, rgb(233, 223, 223), whrgb(233, 223, 223)eat
+/* sandybrown, 
+chocolate */
+);
+height: 50px;
+position: relative;
+margin-bottom: 20px;
+width: 150px;
+margin: 0 auto;
+margin-top: -50px;
+}
+.wave:before,
+.wave:after {
+content: "";
+position: absolute;
+left: 0;
+bottom: 0;
+right: 0;
+background-repeat: repeat-x;
+}
+
+.wave:before {
+  height: 10px;
+  background-size: 20px 20px;
+  background-image: radial-gradient(circle at 10px -5px, transparent 12px, white 13px);
+}
+
+.wave:after {
+  height: 15px;
+  background-size: 40px 20px;
+  background-image: radial-gradient(circle at 10px 15px, white 12px, transparent 13px);
+}
+
+.icon-box{
+  position: relative;
+  left: 35px;
+  top: 20px;
+  width: 50px;
+  height: 50px;
+  margin: 10px 15px;
+  border-radius: 50%;
+  background: rgb(215, 201, 224);
+}
+.icon-box i{
+  font-size: 28px;
+  position: relative;
+  top: 10px;
+  left: 4px;
+  color: white;
+} 
+.coupons-container h4{
+  padding: 16px 28px;
+  margin: 0 auto;
+  font-size: 15px;
+  font-weight: 600;
+}
+.coupons-container h2{
+  padding: 0px 36px;
+  margin: 0 auto;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.dotes{
+  background: rgb(224, 220, 220);
+  z-index: 1;
+}
+.dot-1{
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  position: absolute;
+  top: 20px;
+  left: 120px;
+}
+.dot-2{
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+.dot-3{
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  position: absolute;
+  top: 50px;
+  left: 35px;
+}
+.dot-4{
+  width: 11px;
+  height: 11px;
+  border-radius: 50%;
+  position: absolute;
+  top: 100px;
+  left: 0px;
+}
+.dot-5{
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  position: absolute;
+  top: 80px;
+  left: 140px;
+}
+.dot-6{
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  position: absolute;
+  top: 159px;
+  left: 100px;
+}
 
 
 /* NearRestoCont css*/

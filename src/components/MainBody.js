@@ -1,5 +1,6 @@
 import React from 'react'
 import CCarousel from './cards/ComboCarousel/CCarousel'
+import CouponsCarousel from './cards/Coupons/CouponsCont'
 import NearRestoCont from './cards/NearByResto/NearRestoCont'
 import CarouselCont from './cards/pickUpCarousel/CarouselCont'
 import RestaurantCard from './cards/RestaurantCard'
@@ -15,6 +16,7 @@ export default function MainBody() {
             <SCarousel/>
             <CarouselCont/>
             <CCarousel/>
+            <CouponsCarousel/>
             <NearRestoCont/>
             <RestoButton/>
             <CheckBoxCont/>
