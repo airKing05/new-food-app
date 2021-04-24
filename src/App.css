@@ -9,7 +9,7 @@
 }
 body{
   font-family: 'ProximaNova',Arial,'Helvetica Neue',sans-serif;
-  
+
 }
 
 /* navabr css */
@@ -133,7 +133,7 @@ body{
   position: absolute;
   top: 108px;
   left: 0px;
-  
+
 }
 .row-1 button{
   width: 455px;
@@ -144,7 +144,7 @@ body{
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
   cursor: pointer;
-  
+
 }
 .row-1 button span{
   color: #fff;
@@ -359,7 +359,7 @@ body{
 
 
 
-/* CouponsCont css */
+/* CouponsCarousel css */
 .couponsCarouselContainer{
   position: relative;
   margin: 25px auto;
@@ -376,7 +376,7 @@ body{
 }
 
 
-/* CouponsCont's CounponCard css */
+/* CouponsCarousel's CounponCard css */
 .coupons-container{
   position: relative;
   margin: 0px auto;
@@ -393,7 +393,7 @@ display: flex;
 justify-content: center;
 align-items: center;
 background: linear-gradient(to bottom, rgb(233, 223, 223), whrgb(233, 223, 223)eat
-/* sandybrown, 
+/* sandybrown,
 chocolate */
 );
 height: 50px;
@@ -441,7 +441,7 @@ background-repeat: repeat-x;
   top: 10px;
   left: 4px;
   color: white;
-} 
+}
 .coupons-container h4{
   padding: 16px 28px;
   margin: 0 auto;
@@ -509,6 +509,40 @@ background-repeat: repeat-x;
 }
 
 
+
+
+
+/* TrySNCarousel css */
+.trySNCarouselContainer{
+  position: relative;
+  margin: 25px auto;
+  max-width: 500px;
+}
+.trySNCarouselContainer h2{
+  display: flex;
+  margin-top: 60px;
+  margin-bottom: 20px;
+  font-size: 28px;
+  font-weight: 700px;
+  color: rgb(74, 78, 78);
+  /* margin-left: -175px; */
+}
+.trySNCarouselContainer p{
+  font-size: 20px;
+  font-weight: 400px;
+  color: #686b78;
+  justify-content: flex-start;
+  display: flex;
+  margin-bottom: 40px;
+}
+
+
+/* TrySNCarousel's TrySNFullDetailsCard css*/
+
+
+
+
+
 /* NearRestoCont css*/
 .nearRestoContContainer{
   position: relative;
@@ -533,8 +567,6 @@ background-repeat: repeat-x;
   /* justify-content: start; */
   display: flex;
 }
-
-
 /* NearRestoCont's NearRestoCardWit / WithoutAD css on the same file of js*/
 
 
@@ -674,7 +706,7 @@ background-repeat: repeat-x;
   list-style: none;
   /* margin: 0 20px; */
   cursor: pointer;
-  
+
 }
 .icon{
   margin: 0 20px;
