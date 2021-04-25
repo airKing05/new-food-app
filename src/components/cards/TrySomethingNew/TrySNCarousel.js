@@ -15,14 +15,7 @@ export default function TrySNCarousel() {
         slidesToShow: 1.03,
         slidesToScroll: 1
     };
-    const settings2 = {
-        dots: false,
-        infinite: true,
-        autoplaySpeed: 4000,
-        autoplay: true,
-        slidesToShow: 1.03,
-        slidesToScroll: 1
-    };
+   
     return (
         <div className="trySNCarouselContainer">
             <h2>&#128523; Try Something New</h2>
@@ -30,26 +23,18 @@ export default function TrySNCarousel() {
             <Slider {...settings}>
                 <div>
                     <TrySNFullDetailsCard />
+                    <TrySNCard />
                 </div>
                 <div>
                     <TrySNFullDetailsCard />
+                    <TrySNCard />
                 </div>
                 <div>
                     <TrySNFullDetailsCard />
+                    <TrySNCard />
                 </div>
             </Slider>
 
-            <Slider {...settings2}>
-                <div>
-                    <TrySNCard />
-                </div>
-                <div>
-                    <TrySNCard />
-                </div>
-                <div>
-                    <TrySNCard />
-                </div>
-            </Slider>
         </div>
     )
 }

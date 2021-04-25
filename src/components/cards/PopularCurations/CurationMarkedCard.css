@@ -1,0 +1,33 @@
+.CurMC-container{
+    position: relative;
+    margin: 0 auto;
+    background-color: #fff;
+    max-width: 100px;
+}
+.CurMC-row-img{
+    position: relative;
+    width: 100%;
+}
+.CurMC-row-img img{
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+}
+.CurMC-icon-box{
+    position: absolute;
+    top: 78px;
+    left: 40px;
+    width: 90px;
+    height: 20px;
+    color: rgb(66, 63, 63);
+}
+.CurMC-row-details{
+    width: 100%;
+    padding: 0px 26px;
+    
+}
+.CurMC-row-details span{
+    font-size: 18px;
+    font-weight: 200;
+    color: #3d4152;
+}

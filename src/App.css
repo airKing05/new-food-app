@@ -263,10 +263,8 @@ body{
 }
 
 
-
 /* CCarousel's ComboCard css */
 .big-card-container{
-
   position: relative;
   margin: 0 auto;
   background-color: rgb(223, 115, 133);
@@ -356,6 +354,28 @@ body{
   height: auto;
   padding-right: 10px;
 }
+
+
+
+/* todayFeaturedCarousel css */
+
+.todayFeaturedCarouselContainer{
+  position: relative;
+  margin: 25px auto;
+  max-width: 500px;
+ 
+}
+.todayFeaturedCarouselContainer h2{
+  display: flex;
+  margin-top: 60px;
+  margin-bottom: 20px;
+  font-size: 28px;
+  font-weight: 700px;
+  color: rgb(74, 78, 78);
+  /* margin-left: -175px; */
+}
+
+/* todayFeaturedCarousel's Card is came from the Combo Card css */
 
 
 
@@ -537,7 +557,7 @@ background-repeat: repeat-x;
 }
 
 
-/* TrySNCarousel's TrySNFullDetailsCard css*/
+/* TrySNCarousel's TrySNFullDetailsCard css is avilable on the same folder of the js File*/
 
 
 

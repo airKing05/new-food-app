@@ -1,0 +1,55 @@
+.brands-card-container{
+    position: relative;
+    margin: 0 auto;
+    background-color: #fff;
+}
+.brands-row-border{
+    max-width: 100px;
+    height: 100px;
+    border: 1px solid gray;
+    border-radius: 50%;
+    position: relative;
+}
+.brands-row-border img{
+    max-width: 80px;
+    height: auto;
+    position: relative;
+    top: 25px;
+    left: 0px;
+}
+
+
+.brands-offer-box{
+    position: absolute;
+    top: 81px;
+    left: -3px;
+    width: 104px;
+    height: 26px;
+    background-color: #e46d47;
+    border-radius: 5px;
+}
+.brands-offer-box span{
+    margin-left: 3px;
+    padding-top: 4px;
+    font-size: 19px;
+    font-weight: 300;
+    color: #fff;
+}
+.brands-row-details{
+    width: 100%;
+    margin: 61px 0px;
+    position: relative;
+}
+.brands-row-details span{
+    font-size: 18px;
+    font-weight: 200;
+    color: #3d4152;
+}
+.brands-row-details p{
+    position: relative;
+    font-size: 16px;
+    font-weight: 200;
+    color: #837c7a;
+    top: 0px;
+    left: 20px;
+}

@@ -17,7 +17,6 @@ export default function CCarousel() {
     };
     return (
         <div className="CCarouselContainer">
-            
             <Slider {...settings}>
                 <div>
                     <ComboCard />
