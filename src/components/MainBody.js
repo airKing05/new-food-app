@@ -13,11 +13,17 @@ import CheckBoxCont from './CheckBox/CheckBoxCont'
 import RestoButton from './RestoButton'
 import TagLine from './TagLine'
 import TodayFeaturedHeading from './cards/TodaysFeatured/TodayFeaturedHeading'
+import RecomaFullDetailsCard from './cards/Recommended/RecomaFullDetailsCard'
+import RecomaLessDetailsCard from './cards/Recommended/RecomaLessDetailsCard'
+import PopUpButton from './PopUpButton'
 
 export default function MainBody() {
     return (
         <div className="main-body-container"> 
             <RestaurantCard/>
+            <RecomaFullDetailsCard/>
+            <RecomaLessDetailsCard/>
+            <PopUpButton/>
             <SCarousel/>
             <CarouselCont/>
             <CCarousel/>
