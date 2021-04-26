@@ -16,6 +16,7 @@ import TodayFeaturedHeading from './cards/TodaysFeatured/TodayFeaturedHeading'
 import RecomaFullDetailsCard from './cards/Recommended/RecomaFullDetailsCard'
 import RecomaLessDetailsCard from './cards/Recommended/RecomaLessDetailsCard'
 import PopUpButton from './PopUpButton'
+import RestoDetails from './cards/RestaurantDetails/RestoDetails'
 
 export default function MainBody() {
     return (
@@ -24,6 +25,7 @@ export default function MainBody() {
             <RecomaFullDetailsCard/>
             <RecomaLessDetailsCard/>
             <PopUpButton/>
+            <RestoDetails/>
             <SCarousel/>
             <CarouselCont/>
             <CCarousel/>
