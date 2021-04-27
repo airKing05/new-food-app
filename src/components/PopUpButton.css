@@ -53,6 +53,7 @@
   }
   
   .popup h2 {
+    display: flex;
     margin-top: 0;
     color: rgb(51, 54, 54);
     font-family: Tahoma, Arial, sans-serif;
@@ -86,6 +87,7 @@
   }
   .popup-row .col-cat {
       width: 80%;
+      display: flex;
   }
   .popup-row .col-number {
     margin-left: 40px;
