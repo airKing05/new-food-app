@@ -1,4 +1,5 @@
 import React from 'react';
+import RestoOfferCouponCarousel from '../RestoOfferCoupon/RestoOfferCouponCarousel';
 import './RestoDetails.css';
 
 export default function RestoDetails() {
@@ -37,6 +38,7 @@ export default function RestoDetails() {
             </p>
         </button>
         <hr class="new3" />
+        {/* <RestoOfferCouponCarousel /> */}
     </div>
     )
 }
