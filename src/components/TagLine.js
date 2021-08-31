@@ -3,7 +3,7 @@ import IceCreamImg from '../images/Ice-Cream-Cup.png'
 
 export default function TagLine() {
     return (
-        <div class="tag-container">
+        <div className="tag-container">
         <h1>LIVE </h1>
         <h1> FOR </h1>
         <h1> FOOD</h1>
@@ -13,7 +13,7 @@ export default function TagLine() {
         <h5>MADE BY FOOD LOVER </h5>
         <h5>New SWIGGY HQ, BENGALORE</h5>
         </div>
-        <div class="hr-line"> <hr /></div>
+        <div className="hr-line"> <hr /></div>
   </div>
     )
 }
