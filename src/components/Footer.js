@@ -14,7 +14,7 @@ export default function Footer() {
                 </li>
                 <li class="icon">
                     <a href="#icon-link" class="icon-link" style={{position:'relative', top:'0px', left:'20px'}}>
-                        <i class="fa fa-search" aria-hidden="true" ></i>
+                        <i class="fa fa-search" aria-hidden="true" style={{left:'0px'}}></i>
                         <span>SEARCH</span>
                     </a>
 

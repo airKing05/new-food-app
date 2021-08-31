@@ -88,7 +88,7 @@ body{
   max-width: 500px;
   height: auto;
   padding: 0px 20px;
-  border: 2px solid red;
+  /* border: 2px solid red; */
 }
 
 /* RestaurantCard css */
