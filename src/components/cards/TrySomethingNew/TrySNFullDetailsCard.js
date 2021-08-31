@@ -31,7 +31,7 @@ export default function TrySNFullDetailsCard() {
                     <div className="try-SNFDC-heading">
                         <h2>Ovenstory P...</h2>
                         <i className="fal fa-shield-check"></i>
-                        <span classNameName="try-SNFDC-best-safty"><p> BEST SAFETY</p></span>
+                        <span className="try-SNFDC-best-safty"><p> BEST SAFETY</p></span>
                     </div>
                     <h4>Pizzas</h4>
                     <h4>Talwandi, 2.5 kms</h4>
@@ -42,7 +42,7 @@ export default function TrySNFullDetailsCard() {
                     </div>
                     <hr />
                     <p>&#128512; Use TRYNEW </p>
-                    <div classNameName="try-SNFDC-speciality"><i className="far fa-gem" ></i> Pizzas with 4 standout <br/>cheese flavours </div>
+                    <div className="try-SNFDC-speciality"><i className="far fa-gem" ></i> Pizzas with 4 standout <br/>cheese flavours </div>
                     <div className="try-SNFDC-bg-color"></div>
                 </div>
             </div>  

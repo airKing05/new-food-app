@@ -23,7 +23,7 @@ export default function TrySNCard() {
                     <div className="try-SN-heading">
                         <h2>The Good B...</h2>
                         <i className="fal fa-shield-check"></i>
-                        <span classNameName="try-SN-best-safty"><p> BEST SAFETY</p></span>
+                        <span className="try-SN-best-safty"><p> BEST SAFETY</p></span>
                     </div>
                     <h4>North Indain, Biryani, Asian,...</h4>
                     <h4>Talwandi, 2.5 kms</h4>
