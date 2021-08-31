@@ -4,15 +4,15 @@ import './PopularBrandCard.css'
 
 export default function PopularBrandCard() {
     return (
-        <div class="brands-card-container">
-            <div class="brands-row-border">
+        <div className="brands-card-container">
+            <div className="brands-row-border">
                 <img src={FassosImg} alt="fasso-img" />
-                <div class="brands-offer-box">
+                <div className="brands-offer-box">
                     <span> 15 % OFF</span>
                 </div>
-                <div class="brands-row-details">
+                <div className="brands-row-details">
                     <span > Fassos </span>
-                    <p class="brands-time">50 mins</p>
+                    <p className="brands-time">50 mins</p>
                 </div>
             </div>
 

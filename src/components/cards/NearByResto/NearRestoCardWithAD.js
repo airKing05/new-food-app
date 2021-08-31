@@ -4,27 +4,27 @@ import './NearRestoCardWithAD.css';
 
 export default function NearRestoCardWithAD() {
     return (
-        <div class="near-resto-cont">
-            <div class="near-resto-small-container">
-                <div class="near-resto-row-img">
+        <div className="near-resto-cont">
+            <div className="near-resto-small-container">
+                <div className="near-resto-row-img">
                     <img src={RominusImg} alt="food-small-card-img" />
                     <a href="#ad-link" style={{cursor: 'pointer'}}>
-                        <div class="near-resto-ad-container">
+                        <div className="near-resto-ad-container">
                             <span>AD</span>
                         </div>
                     </a>
-                    <div class="near-resto-offer-box">
+                    <div className="near-resto-offer-box">
                         <span> 60 % OFF</span>
                     </div>
                 </div>
             </div>
-            <div class="near-resto-details">
+            <div className="near-resto-details">
                 <h2>Rominus Pizza And Burger</h2>
                 <h4>Italian-American, Pizzas, Fastfood,...</h4>
                 <h4 style={{display: 'flex', justifyContent:'flex-start'}}>Talwandi, 2.5 kms</h4>
-                <div class="reviews">
+                <div className="reviews">
                     <span>
-                        <i class="fas fa-star"></i>
+                        <i className="fas fa-star"></i>
                         {/* &#9733; */}
                          3.8</span>
                     <span> &#8226; 41mins &#8226;</span>

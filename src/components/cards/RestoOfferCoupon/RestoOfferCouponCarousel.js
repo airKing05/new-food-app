@@ -12,22 +12,21 @@ export default function RestoOfferCouponCarousel() {
     const settings = {
         dots: false,
         infinite: true,
-        autoplaySpeed: 4000,
-        // autoplay: true,
-        // slidesToShow: 1.4,
+        autoplaySpeed: 3000,
+        autoplay: true,
+        slidesToShow: 1.4,
         slidesToScroll: 1
     };
     return (
         <div className="CCarouselContainer">
             <Slider {...settings}>
-                 
+
                 <div>
-                <RestoTopOfferCoupon/>
+                    <RestoTopOfferCoupon />
                 </div>
                 <div>
-                   <RestoOfferCoupon />
+                    <RestoOfferCoupon />
                 </div>
-                
 
             </Slider>
         </div>

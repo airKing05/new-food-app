@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function RestoButton() {
     return (
-        <button class="btn">
+        <button className="btn">
             See all restaurants
         </button>
     )
