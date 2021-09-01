@@ -13,8 +13,8 @@ export default function RestoOfferCouponCarousel() {
         dots: false,
         infinite: true,
         autoplaySpeed: 3000,
-        autoplay: true,
-        slidesToShow: 1.4,
+        // autoplay: true,
+        // slidesToShow: 1.4,
         slidesToScroll: 1
     };
     return (
