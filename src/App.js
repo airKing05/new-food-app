@@ -2,14 +2,20 @@ import './App.css';
 import Navbar from './components/Navbar';
 import MainBody from './components/MainBody';
 import Footer from './components/Footer';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import ProfileMainBody from './components/profile/ProfileMainBody';
 
 function App() {
   return (
-    <div className="App">
+    <BrowserRouter className="App">
       <Navbar/>
-      <MainBody/>
+      <Switch>
+        <Route exact path='/' component={MainBody} />
+        <Route exact path='/profile' component={ProfileMainBody} />
+      </Switch>
+      
       <Footer/>
-    </div>
+    </BrowserRouter>
   );
 }
 

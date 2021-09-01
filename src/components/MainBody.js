@@ -17,6 +17,7 @@ import RecomaFullDetailsCard from './cards/Recommended/RecomaFullDetailsCard'
 import RecomaLessDetailsCard from './cards/Recommended/RecomaLessDetailsCard'
 import PopUpButton from './PopUpButton'
 import RestoDetails from './cards/RestaurantDetails/RestoDetails'
+import ProfileMainBody from './profile/ProfileMainBody'
 
 export default function MainBody() {
     return (
@@ -39,6 +40,7 @@ export default function MainBody() {
             <RestoButton/>
             <CheckBoxCont/>
             <TagLine/>
+            <ProfileMainBody/>
         </div>
     )
 }

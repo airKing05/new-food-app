@@ -1,16 +1,17 @@
 import React from 'react';
-import logo from '../images/logo.jpeg'
+import logo from '../images/logo.jpeg';
+import {NavLink} from 'react-router-dom'
 
 export default function Footer() {
     return (
-        <footer className="footer">
+        <nav className="footer navbar   ">
             <ul className="icon-list">
                 <li className="icon">
-                    <a href="#icon-link" className="icon-link">
+                    <NavLink exact to='/' className="icon-link">
                         <img src={logo} alt="brand-logo"/>
                         {/* <i className="fa fa-bus" aria-hidden="true"  style={{paddingLeft:'45px', color:'#e46d47'}}></i> */}
                         {/* <span style={{color:'#e46d47'}}>NEW SWIGGY</span> */}
-                    </a>
+                    </NavLink>
                 </li>
                 <li className="icon">
                     <a href="#icon-link" className="icon-link" style={{position:'relative', top:'0px', left:'20px'}}>
@@ -27,12 +28,12 @@ export default function Footer() {
 
                 </li>
                 <li className="icon">
-                    <a href="#icon-link" className="icon-link" style={{position:'relative', top:'0px', left:'66px'}}>
+                    <NavLink to='/profile'  className=" icon-link" style={{position:'relative', top:'0px', left:'66px'}}>
                         <i className="fa fa-user" aria-hidden="true" ></i>
                         <span>ACCOUNT</span>
-                    </a>
+                    </NavLink>
                 </li>
             </ul>
-        </footer>
+        </nav>
     )
 }
