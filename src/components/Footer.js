@@ -28,7 +28,7 @@ export default function Footer() {
 
                 </li>
                 <li className="icon">
-                    <NavLink to='/profile'  className=" icon-link" style={{position:'relative', top:'0px', left:'66px'}}>
+                    <NavLink exact to='/profile'  className=" icon-link" style={{position:'relative', top:'0px', left:'66px'}}>
                         <i className="fa fa-user" aria-hidden="true" ></i>
                         <span>ACCOUNT</span>
                     </NavLink>
