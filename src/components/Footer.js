@@ -21,10 +21,10 @@ export default function Footer() {
 
                 </li>
                 <li className="icon">
-                    <a href="#icon-link" className="icon-link" style={{position:'relative', top:'0px', left:'50px'}}>
+                    <NavLink exact to="/cart" className="icon-link" style={{position:'relative', top:'0px', left:'50px'}}>
                         <i className="fa fa-shopping-bag" aria-hidden="true"></i>
                         <span>CART</span>
-                    </a>
+                    </NavLink>
 
                 </li>
                 <li className="icon">
