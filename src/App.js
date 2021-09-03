@@ -6,6 +6,7 @@ import Footer from './components/Footer';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import ProfileMainBody from './components/profile/ProfileMainBody';
 import DefaultCart from './components/cart/DefaultCart';
+import Search from './components/search/Search';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Navbar/>
       <Switch>
         <Route exact path='/' component={MainBody} />
+        <Route exact path='/search' component={Search}/>
         <Route exact path='/cart' component={DefaultCart}/>
         <Route exact path='/profile' component={ProfileMainBody} />
       </Switch>
