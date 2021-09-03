@@ -15,3 +15,13 @@
     font-size: 17px;
     font-weight: 500;
 }
+.accordion-header{
+    margin-left: 0px !important;
+}
+.abc{
+    padding: 10px 0px !important;
+    padding-left: -10px !important;
+    width: 100%;
+    background: #fff;
+    border: none;
+}
