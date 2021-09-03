@@ -14,10 +14,10 @@ export default function Footer() {
                     </NavLink>
                 </li>
                 <li className="icon">
-                    <a href="#icon-link" className="icon-link" style={{position:'relative', top:'0px', left:'20px'}}>
+                    <NavLink exact to='/search' className="icon-link" style={{position:'relative', top:'0px', left:'20px'}}>
                         <i className="fa fa-search" aria-hidden="true" style={{left:'0px'}}></i>
                         <span>SEARCH</span>
-                    </a>
+                    </NavLink>
 
                 </li>
                 <li className="icon">

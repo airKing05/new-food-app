@@ -19,7 +19,7 @@ export default class ProfileMainBody extends Component {
                 </div>
                 <div className="row ">
                     <div className="col">
-                        <div className="u-line" style={{ borderBottom: '3px solid black' }}></div>
+                        <div className="u-line" style={{ borderColor: '3px solid black' }}></div>
                     </div>
                 </div>
 
