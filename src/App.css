@@ -14,18 +14,18 @@ body{
 
 /* navabr css */
 
-.navbar{
+/* .navbar{
   max-width: 500px;
   position: relative;
-  /* margin: 0 auto; */
+  margin: 0 auto;
   display: flex;
   height: 80px;
   background: #fff;
   align-items: center;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   padding: 0px 20px;
-}
-.address{
+} */
+/* .address{
   display: flex;
   align-items: center;
   margin-left: 0px;
@@ -34,22 +34,23 @@ body{
   cursor: pointer;
   margin-bottom: -1px;
   padding-right: 10px;
-}
-.headingMainAdd{
+} */
+/* .headingMainAdd{
   display: flex;
   font-weight: 700;
   color: #3d4152;
   float: left;
-}
-.mainAdd{
-  /* display: block; */
+} */
+/* .mainAdd{
+  display: block;
   margin-left: 10px;
   min-width: 30px;
   text-overflow: ellipsis;
   overflow: hidden;
   white-space: nowrap;
-}
-.fullAdd{
+} */
+/* .fullAdd{
+  max-width: 200px;
   display: block;
   padding-left: 5px;
   margin-left: 5px;
@@ -57,8 +58,8 @@ body{
   text-overflow: ellipsis;
   overflow: hidden;
   white-space: nowrap;
-}
-.offers{
+} */
+/* .offers{
   display: flex;
   float: right;
   margin-left: 15px;
@@ -68,20 +69,22 @@ body{
   position: relative;
   top: 0px;
   right: -20px;
-}
-.offersLink{
+} */
+/* .offersLink{
   display: flex;
   align-items: center;
   padding-left: 28px;
   text-decoration: none;
-}
-.offersText{
+} */
+/* .offersText{
   position: relative;
   color: #3d4152;
   top: 50%;
   right: 0;
   line-height: 0;
-}
+} */
+
+
 
 /* MainBody css */
 .main-body-container{
@@ -90,6 +93,7 @@ body{
   padding: 0px 20px;
   /* border: 2px solid red; */
 }
+
 
 /* RestaurantCard css */
 .Resto-container{

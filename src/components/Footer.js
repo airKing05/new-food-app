@@ -4,7 +4,7 @@ import {NavLink} from 'react-router-dom';
 
 export default function Footer() {
     return (
-        <nav className="container py-3" style={{maxWidth: '500px', margin: '0px auto', boxShadow: '0px 0px 5px 0px #000'}} >
+        <nav className="container py-3" style={{maxWidth: '500px', margin: '0px auto', boxShadow: '0 4px 8px 0 rgba(0, 0, 0, 0.2)'}} >
             
             <div className="row " style={{ margin: 'auto', cursor: 'pointer'}} >
                 <div className="col-3">
