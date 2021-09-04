@@ -3,7 +3,7 @@ import CurationCard from '../cards/PopularCurations/CurationCard';
 
 export default function Search() {
     return (
-        <div className="container">
+        <div className="container" style={{maxWidth:'500px'}}>
             <div className="row">
                 <div className="col">
                     <div className="py-2 "> 

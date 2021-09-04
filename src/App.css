@@ -363,7 +363,7 @@ body{
   position: relative;
   margin: 25px auto;
   max-width: 500px;
- 
+
 }
 .todayFeaturedCarouselContainer h2{
   display: flex;
@@ -710,7 +710,7 @@ background-repeat: repeat-x;
 
 
 /* footer css */
-.footer{
+/* .footer{
   max-width: 500px;
   position: relative;
   margin: 0 auto;
@@ -720,32 +720,28 @@ background-repeat: repeat-x;
   align-items: center;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   padding: 0px 20px;
-}
-.icon-list{
+} */
+/* .icon-list{
   display: flex;
   list-style: none;
-  /* margin: 0 20px; */
-  cursor: pointer;
-
-}
-.icon{
   margin: 0 20px;
-  /* justify-content: space-between; */
-}
-.icon-link{
+  cursor: pointer;
+} */
+
+/* .icon-link{
   text-decoration: none;
   position: relative;
-  justify-content: center;
-}
-.icon-link img{
+  text-align: center;
+} */
+/* .icon-link img{
   max-width: 80px;
   height: auto;
   margin-left: -60px;
-}
-.icon-link i, span{
+} */
+/* .icon-link i, span{
   display: block;
   color: #3d4152;
-}
-.icon-link span{
+} */
+/* .icon-link span{
   margin-top: 5px;
-}
+} */
