@@ -96,13 +96,13 @@ body{
 
 
 /* RestaurantCard css */
-.Resto-container{
+/* .Resto-container{
   position: relative;
   background-color:  #e46d47;
   border-radius: 5px;
   color: #fff;
   max-width: 500px;
-}
+} */
 .row-0{
   display: flex;
 }
