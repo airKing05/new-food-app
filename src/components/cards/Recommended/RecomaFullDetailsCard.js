@@ -2,9 +2,10 @@ import React from 'react';
 import AddBtn from '../button/AddBtn';
 import './RecomaFullDetailsCard.css'
 
+
 export default function RecomaFullDetailsCard() {
     return (
-        <div className=" mt-5" style={{ maxWidth: '500px', border: '1px solid black' }}>
+        <div className=" mt-3" style={{ maxWidth: '500px'}}>
             <div className="container">
                 <div className="row">
                     <div className="col-8 ">
@@ -30,9 +31,7 @@ export default function RecomaFullDetailsCard() {
                     </div>
                 </div>
             </div>
-            <div className=" hr-line" style={{marginTop:'-15px'}}>
-                <hr />
-            </div>
+            <hr className="mt-0" />
         </div>
     )
 }
