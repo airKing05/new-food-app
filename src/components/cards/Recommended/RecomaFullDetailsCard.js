@@ -4,11 +4,11 @@ import './RecomaFullDetailsCard.css'
 
 export default function RecomaFullDetailsCard() {
     return (
-        <div className="recoma-outer-container mt-5" style={{ maxWidth: '500px', border: '1px solid black' }}>
-            <div className="recoma-container container">
-                <div className="recoma-details row">
+        <div className=" mt-5" style={{ maxWidth: '500px', border: '1px solid black' }}>
+            <div className="container">
+                <div className="row">
                     <div className="col-8 ">
-                        <span className="" style={{ color: ' #ee9c00', fontSize: '12px' }}><i className="far fa-stop-circle dot " style={{ color: ' rgb(46, 44, 44)', fontSize: '15px' }}></i> &nbsp; <i className="fas fa-star rating-stat" ></i> Bestseller</span>
+                        <span style={{ color: ' #ee9c00', fontSize: '12px' }}><i className="far fa-stop-circle dot " style={{ color: ' rgb(46, 44, 44)', fontSize: '15px' }}></i> &nbsp; <i className="fas fa-star rating-stat" ></i> Bestseller</span>
                         <h6 className="pt-2" style={{ color: ' #282c3f', fontWeight: '500' }}>Dal Fry</h6>
                         <span className="mt-n-2" style={{ fontSize: '12px' }}>₹60</span>
                         <div className="">
@@ -17,23 +17,20 @@ export default function RecomaFullDetailsCard() {
 
                     </div>
 
-                    <div className="col-4 recoma-img " style={{width:"100%"}}>
+                    <div className="col-4 " >
                         <div className="row" >
-                        
-                                <img src="https://bit.ly/32kDhW0" className="img-fluid  rounded mt-2" alt="dal-fry-img" />
-                            
-                                <div className="text-center" style={{ position: 'relative', top: '-20px',  }}>
-                                    <AddBtn className=""/>
-                                </div>
-                         
-                            <p>Customisable</p>
+                            <img src="https://bit.ly/32kDhW0" className="img-fluid rounded mt-3" alt="dal-fry-img" />
+
+                            <div className="d-flex justify-content-center" style={{ position: 'relative', top: '-20px' }}>
+                                <AddBtn className="ml-3" />
+                            </div>
+
+                            <p className="d-flex justify-content-center mt-2" style={{ fontSize: '10px', fontWeight: '300', color: ' #7e808c' }}>Customisable</p>
                         </div>
-
-
                     </div>
                 </div>
             </div>
-            <div className=" hr-line">
+            <div className=" hr-line" style={{marginTop:'-15px'}}>
                 <hr />
             </div>
         </div>
