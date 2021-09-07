@@ -164,6 +164,27 @@ body{
 } */
 
 
+/* add button */
+.add-btn{
+    position: absolute;
+    display: flex;
+    width: 90px;
+    height: 35px;
+    background-color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 0px 10px 0 rgba(0, 0, 0, 0.2);
+    padding: 2px 2px !important;
+}
+.add-btn a{
+  text-decoration: none;
+  color: #60b246;
+  font-size: 10px;
+}
+.add-btn i{
+ 
+}
+
 
 
 /* CarouselCont css */

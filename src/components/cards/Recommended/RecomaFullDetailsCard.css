@@ -1,33 +1,33 @@
-.recoma-container{
+/* .recoma-container{
     display: flex;
     max-width: 500px;
     height: auto;
     margin-top: 60px;
-}
-.recoma-details{
+} */
+/* .recoma-details{
     width: 60%;
     
-}
-.recoma-details .dot{
+} */
+/* .recoma-details .dot{
     color: rgb(46, 44, 44);
     font-size: 18px;
-}
-.recoma-details .rating-stat{
+} */
+/* .recoma-details .rating-stat{
     position: relative;
     top: -2px;
     left: 0px;
     font-size: 12px;
     color:  #ee9c00;
     margin-left: 5px;
-}
-.recoma-details span{
+} */
+/* .recoma-details span{
     font-size: 12px;
     color:  #ee9c00;
     position: relative;
     top: 0px;
     left: -97px;
-}
-.recoma-details h6{
+} */
+/* .recoma-details h6{
     font-size: 20px;
     font-weight: 300;
     margin-top: 5px;
@@ -35,15 +35,15 @@
     color: #282c3f;
     display: flex;
 
-}
-.recoma-details label{
+} */
+/* .recoma-details label{
     font-size: 16px;
     font-weight: 200;
     color: #282c3f;
     display: flex;
 
-}
-.recoma-details button{
+} */
+/* .recoma-details button{
     margin: 0;
     background: 0 0;
     border: none;
@@ -52,20 +52,19 @@
     cursor: pointer;
     margin-top: 5px;
     color: #686b78;
-
-}
-.recoma-img{
+} */
+/* .recoma-img{
     position: relative;
     top: 0px;
     left: 0px;
-}
-.recoma-img img{
+} */
+/* .recoma-img img{
     width: 128px;
     height: 108px;
     margin-left: 30px;
     border-radius: 5px;
-}
-.recoma-img .add-box{
+} */
+/* .recoma-img .add-box{
     position: absolute;
     display: flex;
     top: 91px;
@@ -76,8 +75,8 @@
     border-radius: 5px;
     cursor: pointer;
     box-shadow: 0 0px 10px 0 rgba(0, 0, 0, 0.2);
-}
-.recoma-img .add-box  i{
+} */
+/* .recoma-img .add-box  i{
     display: flex;
     float: right;
     position: relative;
@@ -92,7 +91,7 @@
     font-size: 12px;
     font-weight: 300;
     color: #60b246;
-}
+} */
 .recoma-img p{
     font-size: 10px;
     font-weight: 300;
@@ -100,7 +99,7 @@
     margin-left: 35px;
     color: #7e808c;
 }
-.recoma-outer-container .hr-line{
+/* .recoma-outer-container .hr-line{
     display: block;
     position: relative;
     top: 0px;
@@ -108,4 +107,4 @@
     margin: 0px auto;
     max-width: 500px;
     margin-top: 20px;
-}
+} */
