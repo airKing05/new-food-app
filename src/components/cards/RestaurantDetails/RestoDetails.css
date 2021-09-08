@@ -1,41 +1,56 @@
-.resto-detils-container{
+.rd-icon-1{
+    font-size: 30px;
+    color: rgb(46, 36, 36);
+}
+.rd-heading-1{
+    font-size: 30px;
+    font-weight: 700;
+    color: black;
+}
+
+
+
+
+
+
+/* .resto-detils-container{
     max-width: 500px;
     height: auto;
     margin: 80px auto;
   
-}
-.rd-header{
+} */
+/* .rd-header{
     display: flex;
     margin: 15px 0;
-}
-.rd-header a{
+} */
+/* .rd-header a{
     cursor: pointer;
     font-size: 30px;
     color: rgb(65, 57, 57);
-}
-.fa-long-arrow-left{
+} */
+/* .fa-long-arrow-left{
     position: relative;
     top: 0px;
     left: -65px;
-}
-.fa-heart{
+} */
+/* .fa-heart{
     position: relative;
     top: 0px;
     left: 142px;
-}
-.fa-search{
+} */
+/* .fa-search{
     position: relative;
     top: 0px;
     left: 65px;
-}
+} */
 
-.resto-detils-container h2{
+/* .resto-detils-container h2{
     font-size: 30px;
     font-weight: 700;
     color: black;
     margin: 10px 0px;
     display: flex;
-}
+} */
 .resto-detils-container span{
     font-size: 18px;
     font-weight: 500;

@@ -4,13 +4,14 @@ import './RestoDetails.css';
 
 export default function RestoDetails() {
     return (
-        <div className="resto-detils-container">
-        <div className="rd-header">
-            <a href="#home"><i className="fal fa-long-arrow-left rd-header-back"></i> </a>
-            <a href="#wishlist"><i className="fal fa-heart rd-header-wish"></i> </a>
-            <a href="#search"><i className="fal fa-search rd-header-search"></i></a>
+        <div className=" container" style={{maxWidth: '500px'}}>
+        <div className="row ">
+            <a href="#home" className="text-decoration-none col-1 rd-icon-1" style={{cursor: 'pointer'}}><i class="fas fa-long-arrow-alt-left "></i> </a>
+            <div className="col-9"></div>
+            <a href="#wishlist" className="text-decoration-none col-1 rd-icon-1"><i className="fas fa-heart "></i> </a>
+            <a href="#search" className="text-decoration-none col-1 rd-icon-1"><i className="fas fa-search "></i></a>
         </div>
-        <h2>Burger King</h2>
+        <h2 className="rd-heading-1">Burger King</h2> 
         <span>American, Fast Food </span>
         <span> Old Gurgaon (Zone 6) | 5.6 kms <i className="fas fa-sort-down"></i></span>
         <p><i className="fa fa-info-circle" aria-hidden="true" ></i> Based on distance, an additional delivery fee will apply
