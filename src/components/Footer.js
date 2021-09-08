@@ -1,39 +1,44 @@
 import React from 'react';
 import logo from '../images/logo.jpeg';
-import {NavLink} from 'react-router-dom'
+import {NavLink} from 'react-router-dom';
 
 export default function Footer() {
     return (
-        <nav className="footer navbar   ">
-            <ul className="icon-list">
-                <li className="icon">
-                    <NavLink exact to='/' className="icon-link">
-                        <img src={logo} alt="brand-logo"/>
-                        {/* <i className="fa fa-bus" aria-hidden="true"  style={{paddingLeft:'45px', color:'#e46d47'}}></i> */}
-                        {/* <span style={{color:'#e46d47'}}>NEW SWIGGY</span> */}
+        <nav className="container py-3" style={{maxWidth: '500px', margin: '0px auto', boxShadow: '0 4px 8px 0 rgba(0, 0, 0, 0.2)'}} >
+            
+            <div className="row " style={{ margin: 'auto', cursor: 'pointer'}} >
+                <div className="col-3">
+                    <NavLink exact to='/' className="text-decoration-none text-center">
+                        <img src={logo} alt="brand-logo" style={{maxWidth: '80px', height: 'auto'}}/>
                     </NavLink>
-                </li>
-                <li className="icon">
-                    <NavLink exact to='/search' className="icon-link" style={{position:'relative', top:'0px', left:'20px'}}>
-                        <i className="fa fa-search" aria-hidden="true" style={{left:'0px'}}></i>
-                        <span>SEARCH</span>
+                </div>
+                <div className="col-3">
+                    <NavLink exact to='/search' className="text-decoration-none text-center" 
+                    style={{color: '#3d4152'}}
+                    >
+                        <i className="fa fa-search d-block" aria-hidden="true" style={{left:'0px'}}></i>
+                        <span className="d-block  mt-1">SEARCH</span>
                     </NavLink>
 
-                </li>
-                <li className="icon">
-                    <a href="#icon-link" className="icon-link" style={{position:'relative', top:'0px', left:'50px'}}>
-                        <i className="fa fa-shopping-bag" aria-hidden="true"></i>
-                        <span>CART</span>
-                    </a>
-
-                </li>
-                <li className="icon">
-                    <NavLink exact to='/profile'  className=" icon-link" style={{position:'relative', top:'0px', left:'66px'}}>
-                        <i className="fa fa-user" aria-hidden="true" ></i>
-                        <span>ACCOUNT</span>
+                </div>
+                <div className="col-3">
+                    <NavLink exact to="/cart" className="text-decoration-none text-center" 
+                    style={{color: '#3d4152'}}
+                    >
+                        <i className="fa fa-shopping-bag d-block" aria-hidden="true"></i>
+                        <span className="d-block  mt-1">CART</span>
                     </NavLink>
-                </li>
-            </ul>
+
+                </div>
+                <div className="col-3">
+                    <NavLink exact to='/profile'  className=" text-decoration-none text-center" 
+                    style={{color: '#3d4152'}}
+                    >
+                        <i className="fa fa-user d-block " aria-hidden="true" ></i>
+                        <span className="d-block mt-1">ACCOUNT</span>
+                    </NavLink>
+                </div>
+            </div>
         </nav>
     )
 }

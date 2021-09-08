@@ -14,18 +14,18 @@ body{
 
 /* navabr css */
 
-.navbar{
+/* .navbar{
   max-width: 500px;
   position: relative;
-  /* margin: 0 auto; */
+  margin: 0 auto;
   display: flex;
   height: 80px;
   background: #fff;
   align-items: center;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   padding: 0px 20px;
-}
-.address{
+} */
+/* .address{
   display: flex;
   align-items: center;
   margin-left: 0px;
@@ -34,22 +34,23 @@ body{
   cursor: pointer;
   margin-bottom: -1px;
   padding-right: 10px;
-}
-.headingMainAdd{
+} */
+/* .headingMainAdd{
   display: flex;
   font-weight: 700;
   color: #3d4152;
   float: left;
-}
-.mainAdd{
-  /* display: block; */
+} */
+/* .mainAdd{
+  display: block;
   margin-left: 10px;
   min-width: 30px;
   text-overflow: ellipsis;
   overflow: hidden;
   white-space: nowrap;
-}
-.fullAdd{
+} */
+/* .fullAdd{
+  max-width: 200px;
   display: block;
   padding-left: 5px;
   margin-left: 5px;
@@ -57,8 +58,8 @@ body{
   text-overflow: ellipsis;
   overflow: hidden;
   white-space: nowrap;
-}
-.offers{
+} */
+/* .offers{
   display: flex;
   float: right;
   margin-left: 15px;
@@ -68,20 +69,22 @@ body{
   position: relative;
   top: 0px;
   right: -20px;
-}
-.offersLink{
+} */
+/* .offersLink{
   display: flex;
   align-items: center;
   padding-left: 28px;
   text-decoration: none;
-}
-.offersText{
+} */
+/* .offersText{
   position: relative;
   color: #3d4152;
   top: 50%;
   right: 0;
   line-height: 0;
-}
+} */
+
+
 
 /* MainBody css */
 .main-body-container{
@@ -91,51 +94,52 @@ body{
   /* border: 2px solid red; */
 }
 
+
 /* RestaurantCard css */
-.Resto-container{
+/* .Resto-container{
   position: relative;
   background-color:  #e46d47;
   border-radius: 5px;
   color: #fff;
   max-width: 500px;
-}
-.row-0{
+} */
+/* .row-0{
   display: flex;
-}
-.col-deatils{
+} */
+/* .col-deatils{
   width: 60%;
   margin: 25px 20px;
-}
-.col-deatils h2{
+} */
+/* .col-deatils h2{
   font-size: 35px;
   font-weight: 600;
   position: relative;
   top: 0px;
   left: -31px;
-}
-.col-deatils p{
+} */
+/* .col-deatils p{
   font-size: 20px;
   font-weight: 300;
   margin-top: 5px;
-}
-.col-img{
+} */
+/* .col-img{
   max-width: 40%;
 
-}
-.col-img img{
+} */
+/* .col-img img{
   margin-top: 5px;
   width: 150px;
   height: 150px;
-}
+} */
 
-.row-1{
+/* .row-1{
   display: flex;
   position: absolute;
   top: 108px;
   left: 0px;
 
-}
-.row-1 button{
+} */
+/* .row-1 button{
   width: 455px;
   height: 50px;
   background-color: #a75134;
@@ -145,8 +149,8 @@ body{
   border-bottom-right-radius: 5px;
   cursor: pointer;
 
-}
-.row-1 button span{
+} */
+/* .row-1 button span{
   color: #fff;
   font-size: 15px;
   font-weight: 200;
@@ -154,12 +158,38 @@ body{
   left: -166px;
   opacity: 1 !important;
   z-index: 1;
-}
-.row-1 button span i{
+} */
+/* .row-1 button span i{
   margin-left: 10px;
+} */
+
+
+/* add button */
+.add-btn{
+    position: absolute;
+    display: flex;
+    width: 90px;
+    height: 35px;
+    background-color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 0px 10px 0 rgba(0, 0, 0, 0.2);
+    padding: 2px 2px !important;
+}
+.add-btn a{
+  text-decoration: none;
+  color: #60b246;
+  font-size: 10px;
 }
 
 
+/* AddBtn2 */
+
+.add-btn-2 a{
+text-decoration: none;
+color: #60b246;
+font-size: 10px;
+}
 
 
 /* CarouselCont css */
@@ -363,7 +393,7 @@ body{
   position: relative;
   margin: 25px auto;
   max-width: 500px;
- 
+
 }
 .todayFeaturedCarouselContainer h2{
   display: flex;
@@ -710,7 +740,7 @@ background-repeat: repeat-x;
 
 
 /* footer css */
-.footer{
+/* .footer{
   max-width: 500px;
   position: relative;
   margin: 0 auto;
@@ -720,32 +750,28 @@ background-repeat: repeat-x;
   align-items: center;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   padding: 0px 20px;
-}
-.icon-list{
+} */
+/* .icon-list{
   display: flex;
   list-style: none;
-  /* margin: 0 20px; */
-  cursor: pointer;
-
-}
-.icon{
   margin: 0 20px;
-  /* justify-content: space-between; */
-}
-.icon-link{
+  cursor: pointer;
+} */
+
+/* .icon-link{
   text-decoration: none;
   position: relative;
-  justify-content: center;
-}
-.icon-link img{
+  text-align: center;
+} */
+/* .icon-link img{
   max-width: 80px;
   height: auto;
   margin-left: -60px;
-}
-.icon-link i, span{
+} */
+/* .icon-link i, span{
   display: block;
   color: #3d4152;
-}
-.icon-link span{
+} */
+/* .icon-link span{
   margin-top: 5px;
-}
+} */
