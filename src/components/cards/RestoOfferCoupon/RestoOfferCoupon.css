@@ -1,13 +1,4 @@
-.resto-offer-container{
-    width: 320px;
-    height: auto;
-    margin: 0 auto;
-    border: 1px solid gray;
-    padding: 10px 15px;
-    border-radius: 10px;
-    position: relative;
-}
-.resto-offer-container h3{
+.roc-heading-1{
     font-size: 20px;
     font-weight: 700;
     color: rgb(61, 52, 52);
@@ -20,6 +11,29 @@
     margin-top: 14px;
     margin-left: 30px;
 }
+
+/* .resto-offer-container{
+    width: 320px;
+    height: auto;
+    margin: 0 auto;
+    border: 1px solid gray;
+    padding: 10px 15px;
+    border-radius: 10px;
+    position: relative;
+} */
+/* .resto-offer-container h3{
+    font-size: 20px;
+    font-weight: 700;
+    color: rgb(61, 52, 52);
+    margin-left: 30px;
+} */
+/* .resto-offer-container p{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(94, 90, 90);
+    margin-top: 14px;
+    margin-left: 30px;
+} */
 .ro-rotate{
     position: absolute;
     top: 33px;

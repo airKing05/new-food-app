@@ -1,5 +1,5 @@
 .rd-icon-1{
-    font-size: 25px;
+    font-size: 22px;
     color: rgb(46, 36, 36);
 }
 .rd-icon-2{
@@ -12,7 +12,7 @@
 .rd-heading-1{
     font-size: 30px;
     font-weight: 700;
-    color: black;
+    color: #282c3f;
 }
 .rd-heading-2{
     font-size: 15px;
@@ -37,6 +37,8 @@
     line-height: 27px;
     display: flex;
 }
+
+
 
 
 
