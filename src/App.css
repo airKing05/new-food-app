@@ -676,10 +676,24 @@ background-repeat: repeat-x;
 
 /* TagLine css */
 
-.tag-container{
+
+.tag-heading-1{
+  display: flex;
+  font-size: 70px;
+  font-weight: 800;
+  padding-top: 80px;
+  line-height: 0px;
+  margin-bottom: -20px;
+}
+.tag-heading-2{
+  font-size: 18px;
+  font-weight: 600;
+}
+
+/* .tag-container{
   width: 500px;
   height: auto;
-  /* margin: 0 auto; */
+  margin: 0 auto; 
   color: rgb(199, 194, 194);
   background-color: rgb(243, 241, 237);
   justify-content: start;
@@ -688,34 +702,34 @@ background-repeat: repeat-x;
   top: 0px;
   left: -22px;
 
-}
-.tag-container h1{
+} */
+/* .tag-container h1{
   display: flex;
   font-size: 80px;
   font-weight: 800;
   padding-top: 80px;
   line-height: 0px;
   margin-bottom: -20px;
-}
-.tag-container img{
+} */
+/* .tag-container img{
   position: relative;
   top: -122px;
   left: -19px;
   width: 152px;
   height: auto;
 
-}
+} */
 .heading-5{
   margin-top: 80px;
 }
-.heading-5 h5{
+/* .heading-5 h5{
   position: relative;
   top: -95px;
   left: 0px;
   font-size: 18px;
   font-weight: 600;
   display: flex;
-}
+} */
 .tag-container .hr-line{
   margin: -50px 0;
   padding-bottom: 95px;
