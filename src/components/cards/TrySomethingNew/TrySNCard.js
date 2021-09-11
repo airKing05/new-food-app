@@ -5,8 +5,9 @@ import PaneerImg from '../../../images/paneer.png'
 export default function TrySNCard() {
     return (
         <>
-            <div className="try-SN-cont">
-                <div className="try-SN-container">
+            <div className="try-SN-cont container" style={{maxWidht: '500px'}}>
+                <div className="row">
+                <div className="try-SN-container col-5">
                     <div className="try-SN-row-img">
                         <img src={PaneerImg} alt="food-small-card-img" />
                         {/* <a href="" style="cursor: pointer;">
@@ -19,7 +20,7 @@ export default function TrySNCard() {
                         </div>
                     </div>
                 </div>
-                <div className="try-SN-details">
+                <div className="try-SN-details col-7">
                     <div className="try-SN-heading">
                         <h2>The Good B...</h2>
                         <i className="fal fa-shield-check"></i>
@@ -35,6 +36,7 @@ export default function TrySNCard() {
                     <hr />
                     <p>&#128512; Use TRYNEW </p>
 
+                </div>
                 </div>
             </div>
         </>
