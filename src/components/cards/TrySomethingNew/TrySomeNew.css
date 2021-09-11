@@ -1,0 +1,21 @@
+.tsn-heading-1{
+    font-size: 28px;
+    font-weight: 700px;
+    color: rgb(74, 78, 78);
+}
+.tsn-heading-2{
+    font-size: 21px;
+    color: #3d4152;
+}
+.tsn-text-1{
+    font-size: 20px;
+    font-weight: 400px;
+    color: #686b78;
+}
+.tsn-text-4{
+    font-size: 11px;
+    font-weight: 800;
+    z-index: -1;
+    margin-top: -4px;
+    letter-spacing: -1px;
+}

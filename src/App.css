@@ -564,9 +564,9 @@ background-repeat: repeat-x;
 
 /* TrySNCarousel css */
 .trySNCarouselContainer{
-  position: relative;
+  /* position: relative;
   margin: 25px auto;
-  max-width: 500px;
+  max-width: 500px; */
 }
 .trySNCarouselContainer h2{
   display: flex;
@@ -719,9 +719,9 @@ background-repeat: repeat-x;
   height: auto;
 
 } */
-.heading-5{
+/* .heading-5{
   margin-top: 80px;
-}
+} */
 /* .heading-5 h5{
   position: relative;
   top: -95px;
@@ -730,14 +730,14 @@ background-repeat: repeat-x;
   font-weight: 600;
   display: flex;
 } */
-.tag-container .hr-line{
+/* .tag-container .hr-line{
   margin: -50px 0;
   padding-bottom: 95px;
   width: 72px;
   height: 2px;
   color: rgb(61, 60, 60);
 
-}
+} */
 
 
 
