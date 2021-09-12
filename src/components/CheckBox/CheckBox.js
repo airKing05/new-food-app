@@ -3,9 +3,11 @@ import React from 'react';
 
 export default function CheckBox() {
     return (
-        <div className="check-box-cont">
-            <div className="check-box"><i className="fal fa-check-square"></i></div>
-            <span>BEST BRANDS</span>
+        <div className="d-flex container" style={{fontSize:'20px', fontWeight: '500', letterSpacing: '-1px', lineHeight: '20px'}}>
+            <span style={{fontSize: '40px'}}>
+            <i className="fas fa-check-square pt-1 pr-2" ></i>
+            </span>
+            <span className="d-flex ">BEST BRANDS</span>
         </div>
     )
 }
