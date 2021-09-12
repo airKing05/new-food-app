@@ -13,7 +13,7 @@ export default function TrySNCarousel() {
         infinite: true,
         autoplaySpeed: 3000,
         // autoplay: true,
-        // slidesToShow: 1.03,
+        slidesToShow: 1.03,
         slidesToScroll: 1
     };
    
