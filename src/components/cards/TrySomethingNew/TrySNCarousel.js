@@ -18,7 +18,7 @@ export default function TrySNCarousel() {
     };
    
     return (
-        <div className="trySNCarouselContainer container" style={{ maxWidth: '500px' ,border:'1px solid black', marginLeft: '0px !important'}}>
+        <div className="trySNCarouselContainer container" style={{ maxWidth: '500px' }}>
             <h2 className="tsn-heading-1">&#128523; Try Something New</h2>
             <p className="tsn-text-1">Discover a new restaurant you haven't explored before.</p>
             <Slider {...settings}>
