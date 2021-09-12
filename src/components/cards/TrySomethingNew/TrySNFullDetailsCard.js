@@ -33,7 +33,7 @@ export default function TrySNFullDetailsCard() {
                        
                        <div className="col-5 " style={{paddingRight: '0px'}}>
                        {/* <i className="fa fa-shield-alt"></i> */}
-                        <span className="tsn-text-4 border-top border-right border-bottom py-1 pr-1  d-flex justify-content-end " style={{paddingRight: '0px'}}>BEST SAFETY</span>
+                        <span className="tsn-text-4 border-top border-right border-bottom py-1 pr-2  d-flex justify-content-end " style={{paddingRight: '0px'}}>BEST SAFETY</span>
                        </div>
                     </div>
                     <div className="tsn-text-2 mt-3">Pizzas</div>
@@ -46,7 +46,7 @@ export default function TrySNFullDetailsCard() {
                     <hr className="mt-2" style={{marginBottom: '10px'}}/>
                     <div  className="tsn-text-2">&#128512; Use TRYNEW </div>
                     <div  className="tsn-text-2"><i className="far fa-gem" ></i> Pizzas with 4 standout <br/>cheese flavours </div>
-                    <div className="try-SNFDC-bg-color"></div>
+                    {/* <div className="rounded-circle" style={{width: '24px', height:'24px', background:'rgb(239 32 36)', position: 'absolute',top: '150px', zIndex :'-1'}}></div> */}
                 </div>
                 </div>
             </div>  
