@@ -205,9 +205,6 @@ font-size: 10px;
     box-shadow: 0 0px 10px 0 rgba(0, 0, 0, 0.2);
     padding: 2px 2px;
 }
-.off-btn span{
-
-}
 
 
 /* CarouselCont css */
@@ -428,20 +425,21 @@ font-size: 10px;
 
 
 /* CouponsCarousel css */
-.couponsCarouselContainer{
+/* .couponsCarouselContainer{
   position: relative;
   margin: 25px auto;
   max-width: 500px;
-}
-.couponsCarouselContainer h2{
+} */
+/* .couponsCarouselContainer h2{
   display: flex;
   margin-top: 60px;
   margin-bottom: 20px;
   font-size: 28px;
   font-weight: 700px;
   color: rgb(74, 78, 78);
-  /* margin-left: -175px; */
-}
+  margin-left: -175px; 
+} */
+
 
 
 /* CouponsCarousel's CounponCard css */
@@ -495,11 +493,10 @@ background-repeat: repeat-x;
 
 .icon-box{
   position: relative;
-  left: 35px;
+  left: 0;
   top: 20px;
   width: 50px;
   height: 50px;
-  margin: 10px 15px;
   border-radius: 50%;
   background: rgb(215, 201, 224);
 }
@@ -507,21 +504,21 @@ background-repeat: repeat-x;
   font-size: 28px;
   position: relative;
   top: 10px;
-  left: 4px;
+  left: 0px;
   color: white;
 }
-.coupons-container h4{
+/* .coupons-container h4{
   padding: 16px 28px;
   margin: 0 auto;
   font-size: 15px;
   font-weight: 600;
-}
-.coupons-container h2{
+} */
+/* .coupons-container h2{
   padding: 0px 36px;
   margin: 0 auto;
   font-size: 22px;
   font-weight: 700;
-}
+} */
 
 .dotes{
   background: rgb(224, 220, 220);
@@ -805,3 +802,60 @@ background-repeat: repeat-x;
 /* .icon-link span{
   margin-top: 5px;
 } */
+
+
+
+/* control css for */
+.tsn-heading-1{
+  font-size: 28px;
+  font-weight: 700px;
+  color:  #3d4152;
+}
+.tsn-heading-2{
+  font-size: 18px;
+  color:  #3e4152;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.tsn-heading-3{
+  font-size: 10px;
+  color: #fff;
+}
+.tsn-text-1{
+  font-size: 20px;
+  font-weight: 400px;
+  color: #686b78;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.tsn-text-2{
+  font-size: 16px;
+  color: #93959f;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap; 
+}
+.tsn-text-3{
+  font-size: 14px;
+  font-weight: 500;
+  color: #696b79;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap; 
+}
+.tsn-text-4{
+  font-size: 11px;
+  font-weight: 800;
+  color: #696b79;
+  z-index: -1;
+  letter-spacing: -1px;
+}
+.tsn-text-5{
+  font-size: 7px;
+  font-weight: 400;
+  letter-spacing: 2px;
+  color: aliceblue;
+ 
+}
