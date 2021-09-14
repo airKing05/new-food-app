@@ -11,7 +11,7 @@ export default function CurationCarousel() {
         dots: false,
         infinite: true,
         autoplaySpeed: 3000,
-        // autoplay: true,
+        autoplay: true,
         slidesToShow: 3.5,
         slidesToScroll: 1
     };

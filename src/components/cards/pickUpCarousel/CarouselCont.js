@@ -10,13 +10,13 @@ export default function CarouselCont() {
         dots: false,
         infinite: true,
         autoplaySpeed: 1000,
-        autoplay: true,
-        slidesToShow: 4.2,
+        // autoplay: true,
+        slidesToShow: 3,
         slidesToScroll: 1
     };
     return (
-        <div className="pickUpCarouselContainer">
-            <h2> &#128077; Top Picks For You</h2>
+        <div className="container my-5" style={{maxWidth: '500px', paddingLeft: '0px'}}>
+            <h2 className="tsn-heading-1"> &#128077; Top Picks For You</h2>
             <Slider {...settings}>
                 <div>
                     <FoodSmallCard />
