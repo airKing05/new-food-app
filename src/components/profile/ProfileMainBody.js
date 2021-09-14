@@ -181,7 +181,9 @@ export default class ProfileMainBody extends Component {
                             <section className="py-2">
                                 <a href="#logout" className="row sec-btn py-2 " style={{ color: '#282c3f' }}>
                                     <div className="col-11 pl-0">LOGOUT</div>
-                                    <div className="col-1 pr-0 d-flex justify-content-end text-align-end" ><i class="fas fa-sign-out-alt"></i></div>
+                                    <div className="col-1 pr-0 d-flex justify-content-end" >
+                                        <span className=" text-align-end "><i class="fas fa-sign-out-alt"></i></span>
+                                    </div>
                                 </a>
                             </section>
                         </div>
