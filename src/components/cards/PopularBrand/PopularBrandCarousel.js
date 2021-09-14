@@ -9,13 +9,13 @@ export default function PopularBrandCarousel() {
         dots: false,
         infinite: true,
         autoplaySpeed: 2000,
-        autoplay: true,
-        slidesToShow: 3.5,
+        // autoplay: true,
+        slidesToShow: 3,
         slidesToScroll: 1
     };
     return (
-        <div className="trySNCarouselContainer">
-            <h2>Popular Brands</h2>
+        <div className="trySNCarouselContainer container mt-5">
+            <div className="tsn-heading-1">Popular Brands</div>
             <Slider {...settings}>
                 <div>
                     <PopularBrandCard/>

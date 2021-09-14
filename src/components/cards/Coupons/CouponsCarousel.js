@@ -18,7 +18,7 @@ export default function CouponsCarousel() {
     };
     return (
         <div className="couponsCarouselContainer">
-            <h2 className="tsn-heading-1"> Coupons For You</h2>
+            <div className="tsn-heading-1"> Coupons For You</div>
             <Slider {...settings}>
                 <div>
                     <CouponCard />

@@ -1,8 +1,8 @@
-.brands-card-container{
+/* .brands-card-container{
     position: relative;
     margin: 0 auto;
     background-color: #fff;
-}
+} */
 .brands-row-border{
     max-width: 100px;
     height: 100px;
@@ -10,13 +10,13 @@
     border-radius: 50%;
     position: relative;
 }
-.brands-row-border img{
+/* .brands-row-border img{
     max-width: 80px;
     height: auto;
     position: relative;
     top: 25px;
     left: 0px;
-}
+} */
 
 
 .brands-offer-box{
@@ -37,7 +37,7 @@
 }
 .brands-row-details{
     width: 100%;
-    margin: 61px 0px;
+    margin: 35px 0px;
     position: relative;
 }
 .brands-row-details span{
@@ -50,6 +50,5 @@
     font-size: 16px;
     font-weight: 200;
     color: #837c7a;
-    top: 0px;
-    left: 20px;
+    
 }
