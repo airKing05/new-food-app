@@ -5,17 +5,16 @@ import './CurationMarkedCard.css'
 export default function CurationMarkedCard() {
     return (
         <>
-            <div className="CurMC-container">
-                <div className="CurMC-row-img">
-                    <img src={HealthySaladImg} alt="north-indian-img" />
-                    <a href="#curations-healthy-salad" style={{ cursor: 'pointer' }}>
-                    </a>
-                    <div className="CurMC-icon-box">
-                        <i className="fas fa-shield-check" style={{ fontSize: '25px' }}></i>
+            <div className=" container mt-2">
+                <div className="">
+                    <img src={HealthySaladImg} className="img-fluid" alt="north-indian-img" />
+                    {/* <a href="#curations-healthy-salad" style={{ cursor: 'pointer' }}>
+                    </a> */}
+                    <div className="border rounded" style={{background: 'red', width: '20px', height: '20px', position: 'absolute', top: ' 10px', right: '10px'}}>
                     </div>
                 </div>
-                <div className="CurMC-row-details">
-                    <span> Helthy Food </span>
+                <div className="tsn-text-2 text-center">
+                    <span> Healthy <br/> Food </span>
                 </div>
             </div>
         </>

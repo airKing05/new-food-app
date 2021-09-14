@@ -11,14 +11,14 @@ export default function CurationCarousel() {
         dots: false,
         infinite: true,
         autoplaySpeed: 3000,
-        autoplay: true,
+        // autoplay: true,
         slidesToShow: 3.5,
         slidesToScroll: 1
     };
 
     return (
-        <div className="trySNCarouselContainer">
-            <h2>Popular Curations</h2>
+        <div className="container my-5" style={{maxWidth: '500px', paddingLeft: '0px'}}>
+            <h2 className="tsn-heading-1">Popular Curations</h2>
             <Slider {...settings}>
                 <div>
                     <CurationMarkedCard />

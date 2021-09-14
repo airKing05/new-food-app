@@ -15,7 +15,7 @@ export default function PopularBrandCarousel() {
     };
     return (
         <div className=" container mt-5" style={{paddingLeft: '0px'}}>
-            <div className="tsn-heading-1">Popular Brands</div>
+            <h2 className="tsn-heading-1">Popular Brands</h2>
             <Slider {...settings}>
                 <div>
                     <PopularBrandCard/>
