@@ -4,8 +4,8 @@ import './PopularBrandCard.css'
 
 export default function PopularBrandCard() {
     return (
-        <div className="brands-card-container mt-3 mb-5 container">
-            <div className="brands-row-border">
+        <div className="  mt-3 mb-5 container">
+            <div style={{maxWidth: '100px', height: '100px', borderRadius: '50%', border: '1px solid gray', position: 'relative'}}>
                 <div className="d-flex align-items-center align-middle mt-4">
                 <img src={FassosImg} className="img-fluid " alt="fasso-img" style={{maxWidth: '70px'}}/>
                 </div>
