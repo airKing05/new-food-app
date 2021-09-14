@@ -10,7 +10,7 @@ export default function CarouselCont() {
         dots: false,
         infinite: true,
         autoplaySpeed: 1000,
-        // autoplay: true,
+        autoplay: true,
         slidesToShow: 3,
         slidesToScroll: 1
     };
