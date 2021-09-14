@@ -10,7 +10,7 @@ export default function PopularBrandCard() {
                 <img src={FassosImg} className="img-fluid " alt="fasso-img" style={{maxWidth: '70px'}}/>
                 </div>
                 <div className="d-flex justify-content-center">
-                <a href="#off" className="off-btn">
+                <a href="#off" className="off-btn text-decoration-none">
                     <span className="d-flex align-items-center"> 15 % OFF</span> 
                 </a>
                 </div>
