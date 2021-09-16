@@ -12,12 +12,13 @@ export default function CouponsCarousel() {
         infinite: true,
         autoplaySpeed: 1000,
         autoplay: true,
-        slidesToShow: 2.8,
-        slidesToScroll: 1
+        slidesToShow: 1.4,
+        slidesToScroll: 1,
+       
     };
     return (
         <div className="couponsCarouselContainer">
-            <h2> Coupons For You</h2>
+            <div className="tsn-heading-1"> Coupons For You</div>
             <Slider {...settings}>
                 <div>
                     <CouponCard />

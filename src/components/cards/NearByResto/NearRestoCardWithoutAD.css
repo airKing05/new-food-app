@@ -46,7 +46,7 @@
     color: #fff;
 
 }
-.near-resto-offer-box{
+/* .near-resto-offer-box{
     position: absolute;
     top: 135px;
     left: 7px;
@@ -54,26 +54,26 @@
     height: 26px;
     background-color: #f5b43b;
     border-radius: 5px;
-}
-.near-resto-offer-box span{
+} */
+/* .near-resto-offer-box span{
     margin-left: 3px;
     padding-top: 4px;
     font-size: 19px;
     font-weight: 300;
     color: #fff;
-}
+} */
 .near-resto-woad-details{
     align-items: center;
     margin: 5px 10px;
     color: #3d4152;
 }
-.near-resto-woad-details h2{
+/* .near-resto-woad-details h2{
     font-size: 21px;
     width: 100%;
     margin-bottom: 7px;
     margin-top: 14px;
-}
-.near-resto-woad-details h4{
+} */
+/* .near-resto-woad-details h4{
     font-size: 17px;
     font-weight: 500;
     color: #686b78;
@@ -81,14 +81,14 @@
     overflow: hidden;
     white-space: nowrap;
     padding: 3px 0;
-}
-.near-resto-woad-details .reviews {
+} */
+/* .near-resto-woad-details .reviews {
     display: flex;
     font-size: 18px;
     font-weight: 600;
     margin: 10px 0px;
     justify-content: flex-start;
-}
+} */
 /* .near-resto-woad-details  hr{
     position: relative;
     top: 6px;

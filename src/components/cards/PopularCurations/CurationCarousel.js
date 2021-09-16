@@ -17,8 +17,8 @@ export default function CurationCarousel() {
     };
 
     return (
-        <div className="trySNCarouselContainer">
-            <h2>Popular Curations</h2>
+        <div className="container my-5" style={{maxWidth: '500px', paddingLeft: '0px'}}>
+            <h2 className="tsn-heading-1">Popular Curations</h2>
             <Slider {...settings}>
                 <div>
                     <CurationMarkedCard />

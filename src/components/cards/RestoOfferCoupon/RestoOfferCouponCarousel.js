@@ -6,8 +6,6 @@ import RestoTopOfferCoupon from './RestoTopOfferCoupon';
 import RestoOfferCoupon from './RestoOfferCoupon';
 
 
-
-
 export default function RestoOfferCouponCarousel() {
     const settings = {
         dots: false,

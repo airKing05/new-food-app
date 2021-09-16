@@ -4,7 +4,7 @@ import './PopUpButton.css'
 export default function PopUpButton() {
     return (
         <>
-            <div className="box">
+            <div className="box container d-flex justify-content-center" >  
                 <a className="button" href="#popup1"><i className="fas fa-utensils"></i>BROWES MENU</a>
             </div>
             <div id="popup1" className="overlay">

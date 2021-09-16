@@ -1,0 +1,56 @@
+.tsn-heading-1{
+    font-size: 28px;
+    font-weight: 700px;
+    color:  #3d4152;
+}
+.tsn-heading-2{
+    font-size: 18px;
+    color:  #3e4152;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.tsn-heading-3{
+    font-size: 10px;
+    color: #fff;
+}
+.tsn-text-1{
+    font-size: 20px;
+    font-weight: 400px;
+    color: #686b78;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.tsn-text-2{
+    font-size: 16px;
+    color: #93959f;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap; 
+}
+.tsn-text-3{
+    font-size: 14px;
+    font-weight: 500;
+    color: #696b79;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap; 
+}
+.tsn-text-4{
+    font-size: 11px;
+    font-weight: 800;
+    color: #696b79;
+    z-index: -1;
+    letter-spacing: -1px;
+}
+.tsn-text-5{
+    font-size: 7px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    color: aliceblue;
+   
+}
+.tsn-icon-1{
+    font-size: 22px;
+}
