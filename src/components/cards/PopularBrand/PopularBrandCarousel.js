@@ -8,14 +8,14 @@ export default function PopularBrandCarousel() {
     const settings = {
         dots: false,
         infinite: true,
-        autoplaySpeed: 2000,
+        autoplaySpeed: 1000,
         autoplay: true,
-        slidesToShow: 3.5,
+        slidesToShow: 3,
         slidesToScroll: 1
     };
     return (
-        <div className="trySNCarouselContainer">
-            <h2>Popular Brands</h2>
+        <div className=" container mt-5" style={{paddingLeft: '0px'}}>
+            <h2 className="tsn-heading-1">Popular Brands</h2>
             <Slider {...settings}>
                 <div>
                     <PopularBrandCard/>

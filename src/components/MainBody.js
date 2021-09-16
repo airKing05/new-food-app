@@ -17,10 +17,11 @@ import RecomaFullDetailsCard from './cards/Recommended/RecomaFullDetailsCard'
 import RecomaLessDetailsCard from './cards/Recommended/RecomaLessDetailsCard'
 import PopUpButton from './PopUpButton'
 import RestoDetails from './cards/RestaurantDetails/RestoDetails'
+import ProfileMainBody from './profile/ProfileMainBody'
 
 export default function MainBody() {
     return (
-        <div className="main-body-container"> 
+        <div className="container" style={{maxWidth: '500px', height: 'auto', padding: '0px 20px'}}> 
             <RestaurantCard/>
             <RecomaFullDetailsCard/>
             <RecomaLessDetailsCard/>
@@ -39,6 +40,7 @@ export default function MainBody() {
             <RestoButton/>
             <CheckBoxCont/>
             <TagLine/>
+            <ProfileMainBody/>
         </div>
     )
 }

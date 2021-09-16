@@ -5,14 +5,14 @@ import './CurationMarkedCard.css'
 
 export default function CurationCard() {
     return (
-        <div className="CurMC-container">
-        <div className="CurMC-row-img">
-          <img src={IndianFoodImg} alt="north-indian-img" />
+        <div className="container mt-2">
+        <div className="">
+          <img src={IndianFoodImg} className="img-fluid" alt="north-indian-img" />
           <a href="#curation-indian-food" style={{cursor: 'pointer'}}>
           </a>
         </div>
-        <div className="CurMC-row-details">
-            <span> North Indian </span> 
+        <div className="tsn-text-2 text-center">
+            <span> North <br/> Indian </span> 
         </div>
     </div>
     )

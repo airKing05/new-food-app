@@ -6,15 +6,13 @@ import RestoTopOfferCoupon from './RestoTopOfferCoupon';
 import RestoOfferCoupon from './RestoOfferCoupon';
 
 
-
-
 export default function RestoOfferCouponCarousel() {
     const settings = {
         dots: false,
         infinite: true,
         autoplaySpeed: 3000,
-        autoplay: true,
-        slidesToShow: 1.4,
+        // autoplay: true,
+        // slidesToShow: 1.4,
         slidesToScroll: 1
     };
     return (

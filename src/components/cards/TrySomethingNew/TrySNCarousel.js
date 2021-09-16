@@ -4,6 +4,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import TrySNFullDetailsCard from './TrySNFullDetailsCard';
 import TrySNCard from './TrySNCard';
+import './TrySomeNew.css';
 
 
 export default function TrySNCarousel() {
@@ -11,15 +12,15 @@ export default function TrySNCarousel() {
         dots: false,
         infinite: true,
         autoplaySpeed: 3000,
-        autoplay: true,
+        // autoplay: true,
         slidesToShow: 1.03,
         slidesToScroll: 1
     };
    
     return (
-        <div className="trySNCarouselContainer">
-            <h2>&#128523; Try Something New</h2>
-            <p>Discover a new restaurant you haven't explored before.</p>
+        <div className="trySNCarouselContainer container" style={{ maxWidth: '500px' }}>
+            <h2 className="tsn-heading-1">&#128523; Try Something New</h2>
+            <p className="tsn-text-1">Discover a new restaurant you haven't explored before.</p>
             <Slider {...settings}>
                 <div>
                     <TrySNFullDetailsCard />
