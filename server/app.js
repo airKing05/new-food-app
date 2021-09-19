@@ -12,6 +12,7 @@ const PORT = process.env.PORT;
 
 app.use(express.json());
 app.use(require('./router/auth'));
+app.use(require('./router/upload'));
 
 
 

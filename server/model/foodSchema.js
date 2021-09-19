@@ -13,7 +13,7 @@ const foodSchema = new mongoose.Schema({
     dishPrice: {
         type: Number
     },
-    dishImage: {
+    dishImg: {
         type: String
     },
     dishRating: {
