@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Navbar() {
     return (
-        <nav className="navbar container py-3 d-flex align-item-center" style={{ maxWidth: '500px', boxShadow: '0 4px 8px 0 rgba(0, 0, 0, 0.2)' }}>
+        <nav className="navbar sticky-top container py-3 d-flex align-item-center" style={{ maxWidth: '500px', boxShadow: '0 4px 8px 0 rgba(0, 0, 0, 0.2)' }}>
             <div className="row">
                 <div className="address col-10" style={{maxWidth: ''}}>
                     <div className="row mb-1">
