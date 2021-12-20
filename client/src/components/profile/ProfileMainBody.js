@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
+import Login from './Login';
 import './profile.css';
+import SignUp from './SignUp';
 
 
 
@@ -8,6 +10,8 @@ export default class ProfileMainBody extends Component {
     render() {
         return (
             <div className="container" style={{ maxWidth: '500px', background: '' }}>
+                <SignUp/>
+                <Login/>
                 <div className="row mt-5">
                     <div className="col-10 " >
                         <h4 className="d-flex justify-content-start">ANIL</h4>
