@@ -24,7 +24,7 @@ export default function SignUp() {
                         <input type="password" class="form-control rounded-0" id="floatingPassword" placeholder="Password" />
                         <label for="floatingPassword"  className='ct-text'>Name</label>
                     </div>
-                    <div class="form-floating">
+                    <div class="form-floating mb-2">
                         <input type="email" class="form-control rounded-0" id="floatingInput" placeholder="name@example.com" />
                         <label for="floatingInput"  className='ct-text'>Email address</label>
                     </div>
