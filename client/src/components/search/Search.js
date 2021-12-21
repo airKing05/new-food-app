@@ -14,11 +14,12 @@ export default function Search() {
                     </div>
                 </div>
             </div>
-            <ul style={{width:'100%', paddingLeft:'0px'}}>
-                <li class="list-group-item">Anand Shekhwati</li>
-                <li class="list-group-item">Amar Punjabi</li>
-                <li class="list-group-item">Ananpuran Food</li>
-                <li class="list-group-item">Anasagar Restaurant</li>
+            <ul style={{ width: '100%', paddingLeft: '0px', }}>
+                <li class="list-group-item">
+                    <a href='#' className='text-decoration-none' style={{ color: '#686b78' }}>Anand Shekhwati</a></li>
+                <li class="list-group-item"><a href='#' className='text-decoration-none' style={{ color: '#686b78' }}>Amar Punjabi</a></li>
+                <li class="list-group-item"><a href='#' className='text-decoration-none' style={{ color: '#686b78' }}>Ananpuran Food</a></li>
+                <li class="list-group-item"><a href='#' className='text-decoration-none' style={{ color: '#686b78' }}>Anasagar Restaurant</a></li>
             </ul>
             <div className="row my-3">
                 <div className="col d-flex justify-content-center">
@@ -35,17 +36,22 @@ export default function Search() {
             <h3 className="" style={{ fontSize: '18px', color: '#3d4152', letterSpacing: '-0.3px' }}>Recent Search</h3>
             <ul style={{ listStyle: 'none', paddingLeft: '0px' }}>
                 <li >
-                    <div className="row ">
-                        <div className="col-1" style={{ position: 'relative', top: '-1px', left: '0px', color: '#686b78' }}>  <i class="fas fa-search"> </i> </div>
-                        <h5 className="col-11 pl-0" style={{ fontSize: '17px', color: '#686b78', fontWeight: '400', letterSpacing: '-0.15' }}> MRF Punjabi Food</h5>
-                    </div>
+                    <a href='#' className='text-decoration-none'>
+                        <div className="row ">
+                            <div className="col-1" style={{ position: 'relative', top: '-1px', left: '0px', color: '#686b78' }}>  <i class="fas fa-search"> </i> </div>
+                            <h5 className="col-11 pl-0" style={{ fontSize: '17px', color: '#686b78', fontWeight: '400', letterSpacing: '-0.15' }}> MRF Punjabi Food</h5>
+                        </div>
+                    </a>
                 </li>
                 <li >
-                    <div className="row">
-                        <div className="col-1" style={{ position: 'relative', top: '-1px', left: '0px', color: '#686b78' }}>  <i class="fas fa-search"> </i> </div>
-                        <h5 className="col-11 pl-0" style={{ fontSize: '17px', color: '#686b78', fontWeight: '400', letterSpacing: '-0.15' }}> Anand Shekhawati Dhaba</h5>
-                    </div>
+                    <a href='#' className='text-decoration-none'>
+                        <div className="row">
+                            <div className="col-1" style={{ position: 'relative', top: '-1px', left: '0px', color: '#686b78' }}>  <i class="fas fa-search"> </i> </div>
+                            <h5 className="col-11 pl-0" style={{ fontSize: '17px', color: '#686b78', fontWeight: '400', letterSpacing: '-0.15' }}> Anand Shekhawati Dhaba</h5>
+                        </div>
+                    </a>
                 </li>
+
             </ul>
 
 
