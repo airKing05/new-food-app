@@ -22,9 +22,9 @@ export default function Search() {
                 <li class="list-group-item"><a href='#' className='text-decoration-none' style={{ color: '#686b78' }}>Anasagar Restaurant</a></li>
             </ul>
             <div className="row my-3">
-                <div className="col d-flex justify-content-center">
-                    <span className=" py-2 px-3 border border-2 border-dark rounded-pill">Restaurants</span>
-                    <span className=" py-2 px-3 border border-2 border-dark rounded-pill ">Dishes</span>
+                <div className="col ">
+                    <span className=" py-2 px-3 border-2 btn btn-outline-danger rounded-pill">Restaurants</span>
+                    <span className=" py-2 px-4 ml-2 border-2 btn btn-outline-danger rounded-pill ">Dishes</span>
                 </div>
             </div>
             <div className="row my-3 ">
