@@ -20,7 +20,7 @@ export default function Navbar() {
                 <div className="offers col-2 d-flex justify-content-end">
                     <a href="offers-link" className="offersLink d-flex text-decoration-none" style={{color:'#3d4152', fontWeight: '500'}}>
                     {/* <i class="fab fa-buffer "></i> */}
-                        <span className="offersText" >  Offers</span>
+                        <span className="offersText d-none" >  Offers</span>
                     </a>
                 </div>
             </div>

@@ -8,12 +8,28 @@ import CouponCard from './CouponCard';
 
 export default function CouponsCarousel() {
     const settings = {
-        dots: false,
+        dots: true,
         infinite: true,
-        autoplaySpeed: 1000,
+        autoplaySpeed: 2000,
         autoplay: true,
-        slidesToShow: 1.4,
+        slidesToShow: 3,
         slidesToScroll: 1,
+        responsive: [
+            {
+                breakpoint: 400,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 2,
+                }
+            },
+            {
+                breakpoint: 300,
+                settings: {
+                    slidesToShow: 1.5,
+                    slidesToScroll: 1,
+                }
+            }
+        ]
        
     };
     return (

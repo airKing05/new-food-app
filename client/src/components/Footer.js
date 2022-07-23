@@ -9,7 +9,7 @@ export default function Footer() {
             <div className="row " style={{ margin: 'auto', cursor: 'pointer'}} >
                 <div className="col-3">
                     <NavLink exact to='/' className="text-decoration-none text-center">
-                        <img src={logo} alt="brand-logo" style={{maxWidth: '80px', height: 'auto'}}/>
+                        <img src="https://bit.ly/3z2XSOx" alt="brand-logo" style={{maxWidth: '40px', height: 'auto'}}/>
                     </NavLink>
                 </div>
                 <div className="col-3">

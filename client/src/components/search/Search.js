@@ -16,10 +16,10 @@ export default function Search() {
             </div>
             <ul style={{ width: '100%', paddingLeft: '0px', }}>
                 <li class="list-group-item">
-                    <a href='#' className='text-decoration-none' style={{ color: '#686b78' }}>Anand Shekhwati</a></li>
-                <li class="list-group-item"><a href='#' className='text-decoration-none' style={{ color: '#686b78' }}>Amar Punjabi</a></li>
-                <li class="list-group-item"><a href='#' className='text-decoration-none' style={{ color: '#686b78' }}>Ananpuran Food</a></li>
-                <li class="list-group-item"><a href='#' className='text-decoration-none' style={{ color: '#686b78' }}>Anasagar Restaurant</a></li>
+                    <a href='#abcd' className='text-decoration-none' style={{ color: '#686b78' }}>Anand Shekhwati</a></li>
+                <li class="list-group-item"><a href='#abcd' className='text-decoration-none' style={{ color: '#686b78' }}>Amar Punjabi</a></li>
+                <li class="list-group-item"><a href='#abcd' className='text-decoration-none' style={{ color: '#686b78' }}>Ananpuran Food</a></li>
+                <li class="list-group-item"><a href='#abcd' className='text-decoration-none' style={{ color: '#686b78' }}>Anasagar Restaurant</a></li>
             </ul>
             <div className="row my-3">
                 <div className="col ">
@@ -36,7 +36,7 @@ export default function Search() {
             <h3 className="" style={{ fontSize: '18px', color: '#3d4152', letterSpacing: '-0.3px' }}>Recent Search</h3>
             <ul style={{ listStyle: 'none', paddingLeft: '0px' }}>
                 <li >
-                    <a href='#' className='text-decoration-none'>
+                    <a href='#abcd' className='text-decoration-none'>
                         <div className="row ">
                             <div className="col-1" style={{ position: 'relative', top: '-1px', left: '0px', color: '#686b78' }}>  <i class="fas fa-search"> </i> </div>
                             <h5 className="col-11 pl-0" style={{ fontSize: '17px', color: '#686b78', fontWeight: '400', letterSpacing: '-0.15' }}> MRF Punjabi Food</h5>
@@ -44,7 +44,7 @@ export default function Search() {
                     </a>
                 </li>
                 <li >
-                    <a href='#' className='text-decoration-none'>
+                    <a href='#abcd' className='text-decoration-none'>
                         <div className="row">
                             <div className="col-1" style={{ position: 'relative', top: '-1px', left: '0px', color: '#686b78' }}>  <i class="fas fa-search"> </i> </div>
                             <h5 className="col-11 pl-0" style={{ fontSize: '17px', color: '#686b78', fontWeight: '400', letterSpacing: '-0.15' }}> Anand Shekhawati Dhaba</h5>

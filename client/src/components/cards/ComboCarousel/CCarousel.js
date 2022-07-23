@@ -10,7 +10,7 @@ export default function CCarousel() {
     const settings = {
         dots: false,
         infinite: true,
-        autoplaySpeed: 4000,
+        autoplaySpeed: 4000,    
         autoplay: true,
         slidesToShow: 1.04,
         slidesToScroll: 1

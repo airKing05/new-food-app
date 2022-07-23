@@ -323,7 +323,7 @@ body{
   font-weight: 700;
   position: relative;
   top: 0px;
-  left: -45px;
+  left: 0px;
 }
 .text h3{
   font-size: 15px;
@@ -339,12 +339,12 @@ body{
   color: rgb(230, 225, 225);
   position: relative;
   top: 0px;
-  left: -37px;
+  left: 0px;
 }
 .row .col-link{
   position: absolute;
-  top: 55px;
-  left: 52px;
+  top: 110px;
+  left: 70px;
   width: 100%;
 }
 .row .col-link a img{
@@ -361,7 +361,7 @@ body{
   border-radius: 1px;
   position: relative;
   top: 0px;
-  left: -39px;
+  left: -5px;
 
 }
 .big-img {

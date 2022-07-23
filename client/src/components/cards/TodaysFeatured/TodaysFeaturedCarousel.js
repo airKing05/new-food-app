@@ -33,12 +33,6 @@ export default function TodaysFeaturedCarousel() {
                 <div>
                     <ComboCard/>
                 </div>
-                <div>
-                    <ComboCard/>
-                </div>
-                <div>
-                    <ComboCard/>
-                </div>
             </Slider>
 
         </div>
