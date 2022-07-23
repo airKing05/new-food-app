@@ -13,7 +13,7 @@ This Swiggy app works across all devices.
 ## Some ui feature 
  - this is real Swiggy clone of 2021 version
  - UI main component - Navbar, footer, welcome Page, Home Page.
- - UI it include Home, account, search, all carousal & accordion of coupon, restaurant etc.
+ - UI it include Home, account, search, all carousal (React slick slider) & accordion (Bootstrap accordion) of coupon, restaurant etc.
  
 
 ## Screenshots
